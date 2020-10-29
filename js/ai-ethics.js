@@ -37,6 +37,8 @@ new Vue({
   },
 
   created: function created() {
+
+
     this.fetchSupporter();
     this.fetchLecture();
     this.fetchPeople();

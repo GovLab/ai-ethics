@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://use.typekit.net/kwv5eho.css">
     <link href="../css/styles.css" rel="stylesheet">
+    <script src="https://unpkg.com/@directus/sdk-js@5.3.4/dist/directus-sdk.umd.min.js"></script>
 </head>
 <header style="padding-top:30px;" class="gl-header">
     <a class="govlab-logo" href="../index.html">
@@ -38,16 +39,16 @@
 </header>
 
 <body>
-    <div class="mod-video">
-        <h1>Defining Actionable Problems</h1>
-        <a id="inst-link" href="../instructors.html#matt">By Matt Andrews</a>
-        <p>Faculty Director of the Harvard Building State Capability Program explains how to rapidly zero down on and identify a problem that lends itself to mobilizing volunteer resources.</p>
+    <div id="home-page" class="mod-video" v-for="lecture in lectureData">
+        <h1>{{lecture.title}}</h1>
+        <a id="inst-link" href="../instructors.html">By <span v-for="faculty in lecture.faculty">{{faculty.faculty_junction_id.name}}</span></a>
+        <p>{{lecture.description}}</p>
 
         <div class="row vid-desc">
 
             <div class="col video">
                 <div class="video-container">
-                    <iframe class="video-frame" src="https://www.youtube.com/embed/kARpminPVX4" frameborder="0"
+                    <iframe class="video-frame" :src="'https://www.youtube.com/embed/'+lecture.video_url_identifier" frameborder="0"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
                 </div>
@@ -55,7 +56,7 @@
         </div>
     </div>
     <div class="main-button">
-        <a class="btn btn1" href="#">Download Transcript</a>
+        <a class="btn btn1" :href="lecture.lecture_transcript.data.full_url">Download Transcript</a>
         <a class="btn btn2" href="../index.html#videos">Watch Other Modules</a>
     </div>
     <div style="margin-bottom:20px" class="grid">
@@ -64,13 +65,7 @@
             <div class="col desc module">
                 <h2>Read, Watch, and Listen</h2>
                 <ul>
-                    <li><a href="https://bsc.cid.harvard.edu/public-leadership-through-crisis">Public Leadership Through Crisis blog series</a> by Matt Andrews</li>
-                    <li><a href="https://bsc.cid.harvard.edu/PDIAtoolkit">To learn more about PDIA,</a> download the DIY Toolkit. </li>
-                    <li><a href="https://buildingstatecapability.com/2020/03/20/seeing-pandemics-as-complex-adaptive-problems/">Seeing Pandemics as Complex Adaptive Problems</a> by Peter Harrington</li>
-                    <li><a href="https://buildingstatecapability.com/2020/03/23/coronavirus-and-behaviour-why-leaders-need-better-risk-communication/">Coronavirus and behavior: Why leaders need better ‘risk communication’</a> by Peter Harrington</li>
-                    <li><a href="https://buildingstatecapability.com/2020/03/23/leading-remote-teams-during-covid-19/">Leading Remote Teams during COVID-19</a> by Lindsey Marchessault</li>
-                    <li><a href="https://harvardbsc.simplecast.com/episodes/applying-lessons-from-experience-to-covid-19">Applying Lessons from Experience to COVID-19</a> by Matt Andrews and Shruti Mehrotra</li>
-                    <li><a href="https://harvardbsc.simplecast.com/episodes/episode-5-building-effective-teams">Building Effective Teams</a> by Salimah Samji and Monica Higgins</li>
+                    <li v-for="reading in lecture.reading"><a :href="reading.reading_junction_id.source_link">{{reading.reading_junction_id.title}}</a>, reading.reading_junction_id.citation</li>
                 </ul>
             </div>
 
@@ -90,6 +85,10 @@
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
 </script>
-<script src="../scripts.js"></script>
+<script src='https://unpkg.com/vue@2.0.3/dist/vue.js'></script>
+<script src="https://unpkg.com/vue-meta/dist/vue-meta.min.js"></script>
+
+<script src="../js/lecture.js"></script>
+
 
 </html>
