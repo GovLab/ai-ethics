@@ -39,7 +39,8 @@
 </header>
 
 <body>
-    <div id="home-page" class="mod-video" v-for="lecture in lectureData">
+    <div id="home-page">
+    <div class="mod-video" v-for="lecture in lectureData">
         <h1>{{lecture.title}}</h1>
         <a id="inst-link" href="../instructors.html">By <span v-for="faculty in lecture.faculty">{{faculty.faculty_junction_id.name}}</span></a>
         <p>{{lecture.description}}</p>
@@ -73,7 +74,7 @@
     </div>
 
 
-
+</div>
 
 </body>
 <footer>
