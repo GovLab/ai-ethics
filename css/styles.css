@@ -759,7 +759,7 @@ footer p{
   }
   .row{
     flex-direction: column;
-    height: 100%;
+    height: 600px;
     margin-top:0;
   }
   .col{
@@ -797,9 +797,10 @@ footer p{
     display:flex;
     flex-direction: column;
     width:100%;
+  
     font-size: 1.1rem;
     font-weight: 300;
-    height: 150px;
+    height: 600px;
   }
   .col.video{
     width:100%;
