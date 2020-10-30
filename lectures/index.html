@@ -67,7 +67,7 @@
             <div class="col desc module">
                 <h2>Read, Watch, and Listen</h2>
                 <ul>
-                    <li v-for="reading in lectureData[0].reading"><a :href="reading.reading_junction_id.source_link">{{reading.reading_junction_id.title}}</a>, reading.reading_junction_id.citation</li>
+                    <li v-for="reading in lectureData[0].readings"><a :href="reading.reading_junction_id.source_link">{{reading.reading_junction_id.title}}</a>, reading.reading_junction_id.citation</li>
                 </ul>
             </div>
 
