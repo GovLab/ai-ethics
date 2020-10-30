@@ -68,21 +68,8 @@
         <div class="row intro">
 
 
-            <div class="col desc">
-                <p>The COVID-19 crisis has generated numerous initiatives where data and AI-based technologies are
-                    leveraged to inform decisions and manage uncertainties across the trajectory of health pandemics, as
-                    well as to accelerate the identification of interventions and treatments that may halt the spread of
-                    COVID-19. While many, but not all, deployments of AI may remain experimental and limited, it remains
-                    essential that we begin now to consider the ethical ramifications involved.</p>
-                <p>
-                    Historically, however, health and other emergencies have led to urgent and rapid uses of technology,
-                    without much attention to the wider social, economic, cultural, and political context. In addition,
-                    AI technologies pose unique threats to the privacy and security likely to exacerbate the already
-                    disparate effects of COVID-19 on vulnerable populations and marginalized communities. The urgency of
-                    a crisis may perpetuate habits, approaches, and norms that prove difficult to reverse. The use of
-                    data and AI in pandemic relief should thus include increasing literacy, awareness and education of
-                    the ethical implications of decisions made today on the use of data and AI.
-                </p>
+            <div class="col desc" v-html="indexData[0].intro_text">
+            
             </div>
 
         </div>
@@ -92,7 +79,9 @@
         <h2>Partners</h2>
     </div>
     <div id="partners" class="white-section">
-        <h3>The Data and AI for Pandemic Relief Course will include a collection of short online lessons and seminars from leading global experts in the field of ethical considerations for AI creation and use.</h3>
+        <div  v-html="indexData[0].partner_section_text">
+            
+        </div>
         <div class="logo-section">
             <div class="logo-row">
                 <div v-for="supporter in supporterData" class="logo-col">
