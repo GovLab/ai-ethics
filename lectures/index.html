@@ -78,6 +78,23 @@
 </div>
 
 </body>
+<div class="separator">
+    <h2>Partners</h2>
+</div>
+<div id="partners" class="white-section">
+    <div  v-html="indexData[0].partner_section_text">
+        
+    </div>
+    <div class="logo-section">
+        <div class="logo-row">
+            <div v-for="supporter in supporterData" class="logo-col">
+                <a><img v-bind:src="supporter.logo.data.thumbnails[3].url"></a>
+            </div>
+
+        </div>
+
+    </div>
+</div>
 <footer>
     <!-- <a href="../pledge.html"><img id="covid-pledge" src="../img/cropped-OCP_WP_logo_240x240.png"></a> -->
     <img src="../img/cc-logo.png">

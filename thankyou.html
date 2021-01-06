@@ -28,13 +28,13 @@
 </head>
 <header class="gl-header">
     <a class="govlab-logo" href="index.html">
-        <img src="img/the-govlab-logo-blue.png" alt="The GovLab">
+        AI Ethics:  Global Perspectives
     </a>
     <div class="menu">
         <a href="index.html#videos">MODULES</a>
         <a href="instructors.html">INSTRUCTORS</a>
         <a href="index.html#partners">PARTNERS</a>
-        <a id="contribute" href="contribute.html">CONTRIBUTE A LECTURE</a>
+        <a id="contribute" href="contribute.html">PROPOSE A MODULE</a>
     </div>
 </header>
 
@@ -46,7 +46,24 @@
     </div>
     
 </body>
-<!-- <footer>
+<!-- <div class="separator">
+    <h2>Partners</h2>
+</div>
+<div id="partners" class="white-section">
+    <div  v-html="indexData[0].partner_section_text">
+        
+    </div>
+    <div class="logo-section">
+        <div class="logo-row">
+            <div v-for="supporter in supporterData" class="logo-col">
+                <a><img v-bind:src="supporter.logo.data.thumbnails[3].url"></a>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<footer>
     <img src="img/cc-logo.png">
     <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
             Attribution-ShareAlike 4.0 International License</a>.</p>

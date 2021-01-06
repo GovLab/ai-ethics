@@ -27,106 +27,73 @@
     <link href="css/styles.css" rel="stylesheet">
 </head>
 <header class="gl-header">
+
     <a class="govlab-logo" href="index.html">
-        <img src="img/the-govlab-logo-blue.png" alt="The GovLab">
+        AI Ethics: <span id="title-id">Global Perspectives</span>
     </a>
     <div class="menu">
         <a href="index.html#videos">MODULES</a>
         <a href="instructors.html">INSTRUCTORS</a>
         <a href="index.html#partners">PARTNERS</a>
-        <a id="contribute" href="contribute.html">CONTRIBUTE A LECTURE</a>
+        <a id="contribute" href="contribute.html">PROPOSE A MODULE</a>
     </div>
 </header>
 
 <body>
     <div class="hero">
-        <h1>AI Ethics:  Global Perspectives</h1>
+        <h1>AI Ethics: Global Perspectives</h1>
         <p>How to Govern and Manage the Use of Data and Artificial Intelligence Ethically?</p>
     </div>
-    <div class="course-desc how">
-        <section class="how-banner">
-            <p>How do we track who has the virus?</p>
-            <p>How do we predict how the virus will spread?</p>
-            <p>How do we provide accurate and reliable information to our communities?</p>
-            <p>How do we administer testing?</p>
-            <p>How do we direct the right people at the right times to hospitals and testing centers?</p>
-            <p>How do we expand our capacity to monitor who is sick?</p>
-            <p>How do we help the elderly and the homebound?</p>
-            <p>How do we provide economic assistance to those affected by business closures?</p>
-        </section>
-
-
-
-    </div>
-    <div class="main-button">
+    <div class="main-button top-btn">
         <a class="btn" href="#videos">Watch the Videos</a>
 
     </div>
- 
-<div id="home-page">
+
+    <div id="home-page">
         <div class="row intro">
 
 
-            <div class="col desc" v-html="indexData[0].intro_text">
-            
-            </div>
+            <div class="col desc">
 
-        </div>
+                <div class="col-txt" v-html="indexData[0].intro_text">
 
-
-    <div class="separator">
-        <h2>Partners</h2>
-    </div>
-    <div id="partners" class="white-section">
-        <div  v-html="indexData[0].partner_section_text">
-            
-        </div>
-        <div class="logo-section">
-            <div class="logo-row">
-                <div v-for="supporter in supporterData" class="logo-col">
-                    <a><img v-bind:src="supporter.logo.data.thumbnails[3].url"></a>
                 </div>
-
             </div>
 
         </div>
-    </div>
-    <div class="separator">
-        <h2>Learn from leading experts</h2>
-    </div>
 
-    <div class="grid experts">
-        <ul>
-            <li v-for="faculty in peopleData"><span id="expert-name">{{faculty.name}}</span>, {{faculty.title}}, {{faculty.organization}}</li>
-        </ul>
-    </div>
-    <div class="separator">
-        <h2>Modules</h2>
-    </div>
-    <div class="grid">
-        <div id="videos"></div>
-        <div class="row">
-            <div class="col" v-for="lecture in lectureData">
-        
-                <a :href="'lectures/'+lecture.slug" class="card">
-                    <div class="card-image">
-                        <span class="icon" :style="{ backgroundImage: 'url(' + lecture.icon.data.full_url+ ')' }"></span>
-                    </div>
-                    <div class="card-text">
-                       
-                        <p id="module-name">{{lecture.title}}</p>
-                        <p v-for="faculty_member in lecture.faculty" id="author">{{faculty_member.faculty_junction_id.name}}<br>{{faculty_member.faculty_junction_id.organization}}</p>
-                    </div>
-                </a>
-            </div>
-          
 
+
+        <div class="separator">
+            <h2>Learn from leading experts</h2>
         </div>
 
-    </div>
+        <div class="grid experts">
+            <ul>
+                <li v-for="faculty in peopleData"><span id="headshot" v-if="faculty.headshot"><img v-bind:src="faculty.headshot.data.thumbnails[3].url"></span><span id="expert-name">{{faculty.name}}</span>{{faculty.title}},
+                    {{faculty.organization}}</li>
+            </ul>
+        </div>
 
+
+
+<div class="separator">
+    <h2>Partners</h2>
 </div>
+<div id="partners" class="white-section">
 
+    <div class="logo-section">
+        <div class="logo-row">
+            <div v-for="supporter in supporterData" class="logo-col">
+                <a><img v-bind:src="supporter.logo.data.thumbnails[3].url"></a>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+</div>
+    
 </body>
 <footer>
     <img src="img/cc-logo.png">
