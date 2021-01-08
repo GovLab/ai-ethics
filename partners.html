@@ -43,53 +43,32 @@
 
 <body>
     <div class="heading" onload="expand()">
-        <h1>INSTRUCTORS</h1>
-        <p>Learn from leading experts in collective intelligence and crisis response
-        </p>
+        <h1>Partners</h1>
+        <!-- <p>Learn from leading experts in collective intelligence and crisis response
+        </p> -->
     </div>
-<div id="home-page">
-    <div class="grid bios">
-        <div v-for="instructor in peopleData" id="p_baeck" class="color-bg bio">
-            <div class="image">
-                <div class="square">
-                    <img v-bind:src="instructor.headshot.data.thumbnails[3].url">
-                </div>
+    <div class="lecture-page" id="home-page">
+
+        <div id="partners" class="white-section">
+            <div v-html="indexData[0].partner_section_text">
+        
             </div>
-            <div class="bio-desc">
-                <h4>{{instructor.name}}</h4>
-                <h6>{{instructor.title}}, {{instructor.organization}}</h6>
-
-                <p>{{instructor.short_bio}}
-
-                </p>
-              <button class="accordion" @click="expand()"><i class="material-icons down"></i></button>
-              <div class="panel" v-html="instructor.bio">
-                
-              </div>
+            <div class="logo-section">
+                <div class="partners-item" v-for="supporter in supporterData">
+                    <div class="logo-col">
+                        <a><img v-bind:src="supporter.logo.data.thumbnails[3].url"></a>
+                        <div v-html="supporter.description"></div>
+                    </div>
+        
+                </div>
+        
             </div>
         </div>
+   
 
 
-    </div>
 </div>
 </body>
-<div class="separator">
-    <h2>Partners</h2>
-</div>
-<div id="partners" class="white-section">
-    <div  v-html="indexData[0].partner_section_text">
-        
-    </div>
-    <div class="logo-section">
-        <div class="logo-row">
-            <div v-for="supporter in supporterData" class="logo-col">
-                <a><img v-bind:src="supporter.logo.data.thumbnails[3].url"></a>
-            </div>
-
-        </div>
-
-    </div>
-</div>
 <footer>
     <!-- <a href="pledge.html"><img id="covid-pledge" src="img/cropped-OCP_WP_logo_240x240.png"></a> -->
     <img src="img/cc-logo.png">

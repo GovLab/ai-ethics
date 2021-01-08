@@ -313,7 +313,22 @@ color: #ffffff;
   height:100%;
 }
 
-
+.partners-item .logo-col{
+  -webkit-flex: 0 0 100%;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.partners-item .logo-col div{
+  text-align: left;
+}
+.partners-item{
+  padding: 1rem 0;
+  border-bottom: 1px solid black;
+}
 @media screen and (min-width: 320px) and (max-width: 768px){
   .col-txt {
     width:100%;
@@ -365,11 +380,9 @@ flex-flow: row wrap;
   position: relative;
 }
 .logo-col img{
-  height:60px;
+  height:80px;
 }
-.logo-col.gl img{
-  height:40px;
-}
+
 .logo-col.jhs img{
   height:80px;
 }
