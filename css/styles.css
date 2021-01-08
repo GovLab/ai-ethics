@@ -1,6 +1,7 @@
 
 :root {
   --dark-grey: #02222e;
+  --dark-grey-10: #02222e11;
   --dark-grey-40: #02222e54;
   --dark-grey-80: #02222ef3;
   --light-blue: #32CBFF;
@@ -658,7 +659,7 @@ color: var(--dark-grey);
     display: inline-block;
     border: none;
     color: var(--dark-grey);
-    background-color:var(--white);
+    background-color:var(--dark-grey-10);
     border-radius: 0px;
     box-sizing: border-box;
   }
@@ -671,7 +672,7 @@ color: var(--dark-grey);
     display: inline-block;
     border: none;
     color: var(--dark-grey);
-    background-color:var(--white);
+    background-color:var(--dark-grey-10);
     border-radius: 0px;
     box-sizing: border-box;
   }
