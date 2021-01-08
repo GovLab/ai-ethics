@@ -313,10 +313,13 @@ color: #ffffff;
   height:100%;
 }
 
-.intro{
- 
-}
+
 @media screen and (min-width: 320px) and (max-width: 768px){
+  .col-txt {
+    width:100%;
+    padding:1rem;
+    height:100%;
+  }
   .topic-row{
     display: flex;
     flex-direction: column ;
@@ -356,10 +359,13 @@ flex-flow: row wrap;
   -ms-flex: 0 0 33.33%;
   flex: 0 0 33.33%;
   max-width: 33.33%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   position: relative;
 }
 .logo-col img{
-  height:40px;
+  height:60px;
 }
 .logo-col.gl img{
   height:40px;
@@ -809,8 +815,52 @@ footer p{
     flex-direction: column;
   }
 }
-
+.lecture-page{
+padding: 2rem 4rem;
+}
+.lecture-module{
+background-color: var(--dark-grey-10);
+padding: 1rem 2rem 2rem 2rem;
+margin-bottom: 2rem;
+color: var(--dark-grey);
+}
+.lecture-module li{
+  list-style: none;
+  display:flex;
+  align-items: center;
+}
+.lecture-module ul{
+  padding-left:0;
+}
+.lecture-module #headshot img{
+  height:40px;
+  width:40px;
+  border-radius: 50%;
+  margin: 10px;
+}
+.lecture-module a{
+  text-decoration: none;
+  padding: 0.5rem 0.5rem;
+  background-color: var(--dark-grey-80);
+  color:#ffffff;
+  text-transform: uppercase;
+}
+.lecture-module a:hover{
+ transition: 0.5s ease-in-out;
+  background-color: var(--light-blue);
+  color:#ffffff;
+  text-transform: uppercase;
+}
 @media screen and (max-width: 700px){
+  .lecture-page{
+    padding: 2rem 1rem;
+    }
+    .lecture-module{
+    background-color: var(--dark-grey-10);
+    padding: 1rem 2rem 2rem 2rem;
+    margin-bottom: 2rem;
+    color: var(--dark-grey);
+    }
   .experts ul{
     display: flex;
     flex-direction: column ;

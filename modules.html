@@ -43,42 +43,33 @@
 
 <body>
     <div class="heading" onload="expand()">
-        <h1>INSTRUCTORS</h1>
-        <p>Learn from leading experts in collective intelligence and crisis response
-        </p>
+        <h1>Modules</h1>
+        <!-- <p>Learn from leading experts in collective intelligence and crisis response
+        </p> -->
     </div>
-<div id="home-page">
-    <div class="grid bios">
-        <div v-for="instructor in peopleData" id="p_baeck" class="color-bg bio">
-            <div class="image">
-                <div class="square">
-                    <img v-bind:src="instructor.headshot.data.thumbnails[3].url">
-                </div>
-            </div>
-            <div class="bio-desc">
-                <h4>{{instructor.name}}</h4>
-                <h6>{{instructor.title}}, {{instructor.organization}}</h6>
+    <div class="lecture-page" id="home-page">
 
-                <p>{{instructor.short_bio}}
+        <div class="lecture-module" v-for="module in lectureData">
+            <h2>{{module.title}}</h2>
+            <p>{{module.description}}</p>
+            <ul>
+                <li v-for="faculty_item in module.faculty">
+                    
+                    <span id="headshot" v-if="faculty_item.faculty_junction_id.headshot"><img v-bind:src="faculty_item.faculty_junction_id.headshot.data.thumbnails[3].url"></span>
+                    <span id="expert-name">{{faculty_item.faculty_junction_id.name}},</span>&nbsp{{faculty_item.faculty_junction_id.title}},
+                    {{faculty_item.faculty_junction_id.organization}}</li>
+            </ul>
 
-                </p>
-              <button class="accordion" @click="expand()"><i class="material-icons down"></i></button>
-              <div class="panel" v-html="instructor.bio">
-                
-              </div>
-            </div>
+            <a :href="'modules/' + module.slug">Watch the lecture</a>
         </div>
+   
 
-
-    </div>
-</div>
-</body>
 <div class="separator">
     <h2>Partners</h2>
 </div>
 <div id="partners" class="white-section">
-    <div  v-html="indexData[0].partner_section_text">
-        
+    <div v-html="indexData[0].partner_section_text">
+
     </div>
     <div class="logo-section">
         <div class="logo-row">
@@ -90,6 +81,8 @@
 
     </div>
 </div>
+</div>
+</body>
 <footer>
     <!-- <a href="pledge.html"><img id="covid-pledge" src="img/cropped-OCP_WP_logo_240x240.png"></a> -->
     <img src="img/cc-logo.png">

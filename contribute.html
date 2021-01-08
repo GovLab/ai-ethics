@@ -22,13 +22,14 @@
     <meta property="og:image" content="img/thumbnail.png" />
     <title>AI Ethics:  Global Perspectives</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/@directus/sdk-js@5.3.4/dist/directus-sdk.umd.min.js"></script>
     <link rel="stylesheet" href="https://use.typekit.net/kwv5eho.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
 </head>
 <header class="gl-header">
     <a class="govlab-logo" href="index.html">
-        AI Ethics:  Global Perspectives
+        AI Ethics: <span id="title-id">Global Perspectives</span>
     </a>
     <div class="menu">
         <a href="index.html#videos">MODULES</a>
@@ -76,6 +77,7 @@
 <div class="separator">
     <h2>Partners</h2>
 </div>
+<div id="home-page">
 <div id="partners" class="white-section">
     <div  v-html="indexData[0].partner_section_text">
         
@@ -90,6 +92,7 @@
 
     </div>
 </div>
+</div>
 <footer>
     <!-- <a href="pledge.html"><img id="covid-pledge" src="img/cropped-OCP_WP_logo_240x240.png"></a> -->
     <img src="img/cc-logo.png">
@@ -100,6 +103,8 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
 </script>
-<script src="scripts.js"></script>
-
+<script src='https://unpkg.com/vue@2.0.3/dist/vue.js'></script>
+<script src="https://unpkg.com/vue-meta/dist/vue-meta.min.js"></script>
+<script src="js/scripts.js"></script>
+<script src="js/ai-ethics.js"></script>
 </html>

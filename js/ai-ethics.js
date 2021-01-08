@@ -97,7 +97,7 @@ new Vue({
       client.getItems(
   'lecture',
   {
-    fields: ['*.*','faculty.faculty_junction_id.*']
+    fields: ['*.*','faculty.faculty_junction_id.*','faculty.faculty_junction_id.headshot.*']
   }
 ).then(data => {
   console.log(data)
