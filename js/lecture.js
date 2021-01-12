@@ -62,7 +62,7 @@ new Vue({
     fields: ['*.*','faculty.faculty_junction_id.*','readings.reading_junction_id.*']
   }
 ).then(data => {
-  console.log(data)
+  console.log(self.lectureslug)
   self.lectureData = data.data;
 })
 .catch(error => console.error(error));

@@ -26,20 +26,23 @@
     <link href="../css/styles.css" rel="stylesheet">
     <script src="https://unpkg.com/@directus/sdk-js@5.3.4/dist/directus-sdk.umd.min.js"></script>
 </head>
-<header style="padding-top:30px;" class="gl-header">
+<header class="gl-header">
+
     <a class="govlab-logo" href="../index.html">
-        <img src="../img/the-govlab-logo-blue.png" alt="The GovLab">
+        AI Ethics: <span id="title-id">Global Perspectives</span>
     </a>
     <div class="menu">
         <a href="../modules.html">MODULES</a>
         <a href="../instructors.html">INSTRUCTORS</a>
         <a href="../partners.html">PARTNERS</a>
-        <a id="contribute" href="../contribute.html">CONTRIBUTE A LECTURE</a>
+        <a id="../contribute" href="contribute.html">PROPOSE A MODULE</a>
     </div>
 </header>
 
 <body>
     <div id="home-page">
+        
+ 
     <div class="mod-video">
         <h1>{{lectureData[0].title}}</h1>
         <a id="inst-link" href="../instructors.html">By <span v-for="faculty_item in lectureData[0].faculty">{{faculty_item.faculty_junction_id.name}}</span></a>
@@ -78,7 +81,7 @@
 
 
 
-<div class="separator">
+<!-- <div class="separator">
     <h2>Partners</h2>
 </div>
 <div id="partners" class="white-section">
@@ -94,7 +97,7 @@
         </div>
 
     </div>
-</div>
+</div> -->
 </div>
 </body>
 <footer>

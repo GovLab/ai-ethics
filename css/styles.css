@@ -274,9 +274,6 @@ a.govlab-logo #title-id{
 .col.desc{
   width:100%;
   height:100%;
-  font-size: 1.4rem;
-  font-weight: 600;
-  line-height: 1.8;
   display: flex;
   flex-direction: row ;
   max-width: none;
@@ -288,7 +285,12 @@ display: flex;
 -webkit-flex-flow: row wrap;
 -ms-flex-flow: row wrap;
 flex-flow: row wrap;
-background-image: url(../img/machine.jpg);
+}
+.col.desc.home{
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.8;
+  background-image: url(../img/machine.jpg);
 background-color: var(--dark-grey-80);
 background-blend-mode: multiply;
 background-position: center;
