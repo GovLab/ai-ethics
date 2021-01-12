@@ -42,7 +42,7 @@
     <div id="home-page">
     <div class="mod-video">
         <h1>{{lectureData[0].title}}</h1>
-        <a id="inst-link" href="../instructors.html">By <span v-for="faculty in lectureData[0].faculty">{{faculty.faculty_junction_id.name}}</span></a>
+        <a id="inst-link" href="../instructors.html">By <span v-for="faculty_item in lectureData[0].faculty">{{faculty_item.faculty_junction_id.name}}</span></a>
         <p>{{lectureData[0].description}}</p>
 
         <div class="row vid-desc">
