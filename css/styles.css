@@ -665,6 +665,15 @@ color: var(--dark-grey);
     flex: 0 0 33.33%;
     max-width: 33.33%;
   }
+  .experts li a#inst-link {
+    text-decoration: none;
+    color: var(--dark-grey);
+  }
+  .experts li a#inst-link:hover {
+    text-decoration: none;
+    color: var(--dark-grey-40);
+    transition: 0.6s ease-in-out;
+  }
   .faculty-item{
     padding: 0 2rem;
   }

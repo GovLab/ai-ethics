@@ -82,15 +82,16 @@
 
         <div class="grid experts">
             <ul>
-                <li v-for="faculty in peopleData"><div class="faculty-item"><span class="color-bg home bio" v-if="faculty.headshot">            
+                <li v-for="faculty in peopleData"><div class="faculty-item"><span class="color-bg home bio" v-if="faculty.headshot">
+                            
                     <div class="image">
                     <div class="square">
                         <img v-bind:src="faculty.headshot.data.thumbnails[3].url">
                     </div>
                 </div>
 
-                <span id="expert-name">{{faculty.name}}</span>{{faculty.title}},
-                    {{faculty.organization}}
+                <a id="inst-link" href="instructors.html"><span id="expert-name">{{faculty.name}}</span><br>{{faculty.title}},
+                    {{faculty.organization}}</a>
                     <div class="module-name" v-for="module in lectureData">
                         <template v-for="mod_faculty in module.faculty">
                         <p v-if="mod_faculty.faculty_junction_id.id==faculty.id"><span id="mod-heading">MODULE:&nbsp</span><a v-if="module.lecture_live=='1'":href="'lectures/'+module.slug">{{module.title}}</a><span v-if="module.lecture_live=='0'">{{module.title}}</span></p>
@@ -98,6 +99,7 @@
                     </div>
                 </span>
                 </div>
+            
                 </li>
             </ul>
         </div>
