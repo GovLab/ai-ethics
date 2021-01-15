@@ -93,7 +93,7 @@
                     {{faculty.organization}}
                     <div class="module-name" v-for="module in lectureData">
                         <template v-for="mod_faculty in module.faculty">
-                        <p v-if="mod_faculty.faculty_junction_id.id==faculty.id"><span id="mod-heading">MODULE:&nbsp</span><a :href="'lectures/'+module.slug">{{module.title}}</a></p>
+                        <p v-if="mod_faculty.faculty_junction_id.id==faculty.id"><span id="mod-heading">MODULE:&nbsp</span><a v-if="module.lecture_live=='1'":href="'lectures/'+module.slug">{{module.title}}</a><span v-if="module.lecture_live=='0'">{{module.title}}</span></p>
                         </template>
                     </div>
                 </span>
