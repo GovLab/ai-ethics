@@ -35,31 +35,43 @@
         <a href="modules.html">MODULES</a>
         <a href="instructors.html">INSTRUCTORS</a>
         <a href="partners.html">PARTNERS</a>
-        <a id="contribute" href="contribute.html">PROPOSE A MODULE</a>
+        <a href="contact.html">CONTACT US</a>
     </div>
 </header>
 
 <body>
     <div class="hero">
-        <h1>AI Ethics: Global Perspectives</h1>
-        <p>How to Govern and Manage the Use of Data and Artificial Intelligence Ethically?</p>
-    </div>
-    <div class="main-button top-btn">
+        <div class="hero-img">
+          <div class="video">
+            <div class="">
+              <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/481869821?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+            </div>
+          </div>
+        </div>
+        <div class="hero-title">
+            <h1>AI Ethics: Global Perspectives</h1>
+            <p>How to Govern and Manage the Use of Data and Artificial Intelligence Ethically?</p>
+  
+        </div>
+      </div>
+
+    <!-- <div class="main-button top-btn">
         <a class="btn" href="#videos">Watch the Videos</a>
 
-    </div>
+    </div> -->
 
     <div id="home-page">
-        <div class="row intro">
+    
+        <div class="row intro-elements" v-for="(intro,index) in indexData" v-if="index<4">
+         
+            <div class="intro-text"><div class="text-box"  v-html="intro.intro_text"></div></div>
+            <div class="intro-img"  v-bind:style="{ backgroundImage: 'url(' + intro.image.data.full_url + ')' }"></div>
 
+        </div>
+        <div class="join">
+            <div class="join-text" v-html="indexData[4].intro_text">
 
-            <div class="col desc home">
-
-                <div class="col-txt" v-html="indexData[0].intro_text">
-
-                </div>
             </div>
-
         </div>
 
 
