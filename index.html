@@ -82,7 +82,12 @@
 
         <div class="grid experts">
             <ul>
-                <li v-for="faculty in peopleData"><span id="headshot" v-if="faculty.headshot"><img v-bind:src="faculty.headshot.data.thumbnails[3].url"></span><span id="expert-name">{{faculty.name}}</span>{{faculty.title}},
+                <li v-for="faculty in peopleData"><span class="color-bg home bio" v-if="faculty.headshot">            
+                    <div class="image">
+                    <div class="square">
+                        <img v-bind:src="faculty.headshot.data.thumbnails[3].url">
+                    </div>
+                </div><span id="expert-name">{{faculty.name}}</span>{{faculty.title}},
                     {{faculty.organization}}</li>
             </ul>
         </div>

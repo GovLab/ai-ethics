@@ -645,6 +645,13 @@ color: var(--dark-grey);
   align-items: center;
   justify-content: center;
 }
+.home.bio{
+  padding: 2rem 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .bio .image{
   flex-direction: column;
   width: 30%;
@@ -658,7 +665,15 @@ color: var(--dark-grey);
     height: 110%;
 
   }
-  
+  .home.bio .image .square{
+    display: inline-block;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 4px solid var(--light-blue);
+  }
   .bio .image .square{
     display: inline-block;
     position: relative;
