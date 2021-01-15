@@ -7,6 +7,8 @@
   --light-blue: #32CBFF;
   --light-blue-transparent: #32ccff6c;
   --light-grey: #dadada;
+  --grey-10: #33333310;
+  --grey: #3d3d3d;
   --green: #1e88ac;
   --white: #ffffff;
   
@@ -607,6 +609,34 @@ color: var(--dark-grey);
     text-align: left;
 
   }
+  .lecture-row{
+    display: flex;
+    flex-direction: row ;
+    max-width: none;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+
+  }
+  .lecture-item{
+    font-weight: 300;
+    margin-bottom: 10px;
+    list-style: none;
+    align-items: center;
+    display:flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    -webkit-flex: 0 0 33.33%;
+    -ms-flex: 0 0 33.33%;
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+  }
   .experts ul{
     display: flex;
     flex-direction: row ;
@@ -634,6 +664,9 @@ color: var(--dark-grey);
     -ms-flex: 0 0 33.33%;
     flex: 0 0 33.33%;
     max-width: 33.33%;
+  }
+  .faculty-item{
+    padding: 0 2rem;
   }
   #expert-name{
     font-weight: 600;
@@ -673,6 +706,13 @@ color: var(--dark-grey);
     overflow: hidden;
     border-radius: 50%;
     border: 4px solid var(--light-blue);
+  }
+  .module-name #mod-heading{
+    font-weight: 600;
+    color: var(--light-blue);
+  }
+  .module-name a{
+    color: var(--dark-grey);
   }
   .bio .image .square{
     display: inline-block;
@@ -954,23 +994,40 @@ padding: 2rem 4rem;
 }
 .lecture-module{
 background-color: var(--dark-grey-10);
-padding: 1rem 2rem 2rem 2rem;
-margin-bottom: 2rem;
 color: var(--dark-grey);
+width:100%;
+height: 400px;
+padding: 2rem 0rem 2rem 0rem;
+border: 10px solid white;
+}
+.lecture-module.module-next{
+  background-color: var(--grey-10);
+  color: var(--grey);
+}
+.lecture-module.module-next a{
+  background-color: var(--grey);
 }
 .lecture-module li{
   list-style: none;
+  flex-direction: column;
   display:flex;
   align-items: center;
 }
 .lecture-module ul{
   padding-left:0;
 }
+.lecture-module.module-next #headshot img{
+  filter: grayscale(100%);
+}
 .lecture-module #headshot img{
   height:40px;
   width:40px;
   border-radius: 50%;
   margin: 10px;
+}
+.lecture-module h2{
+  font-size: 1.2rem;
+  padding: 0 4rem;
 }
 .lecture-module a{
   text-decoration: none;
@@ -1022,6 +1079,7 @@ color: var(--dark-grey);
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
+
   }
   .gl-header{
     padding:0 4rem;
