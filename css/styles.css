@@ -820,13 +820,19 @@ color: var(--dark-grey);
     font-weight: 200;
     content: 'keyboard_arrow_up';
   }
+  .contact.heading{
+    padding: 1rem 6rem;
+    
+  }
   .custom-form{
     display:flex;
     flex-direction: column;
     text-align: left;
+    width:60%;
   }
   .grid.form{
-    padding: 2rem 8rem;
+    padding: 2rem 1rem;
+    width:100%;
   }
   .form h4{
     margin:0;
@@ -1058,6 +1064,12 @@ border: 10px solid white;
   text-transform: uppercase;
 }
 @media screen and (max-width: 700px){
+  .custom-form{
+    display:flex;
+    flex-direction: column;
+    text-align: left;
+    width:100%;
+  }
   .lecture-row{
     display: flex;
     flex-direction: column ;
