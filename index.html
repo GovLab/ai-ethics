@@ -17,8 +17,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="AI Ethicd" />
-    <meta property="og:description" content="" />
+    <meta property="og:title" content="AI Ethics" />
+    <meta property="og:description" content="A Collection of Lectures on the Ethical implications of Data and Artificial Intelligence from Different Perspectives" />
     <meta property="og:image" content="img/thumbnail.png" />
     <title>AI Ethics</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -50,7 +50,7 @@
         </div>
         <div class="hero-title">
             <h1>AI Ethics: Global Perspectives</h1>
-            <p>How to Govern and Manage the Use of Data and Artificial Intelligence Ethically?</p>
+            <p>A Collection of Lectures on the Ethical implications of Data and Artificial Intelligence from Different Perspectives</p>
   
         </div>
       </div>
@@ -116,7 +116,7 @@
             <div v-for="supporter in supporterData" class="logo-col">
                 <div class="image">
                     <div class="square">
-                        <a><img v-bind:src="supporter.logo.data.thumbnails[3].url"></a>
+                        <a v-if="supporter.url" :href="supporter.url"><img v-bind:src="supporter.logo.data.thumbnails[3].url"></a>
                     </div>
                 </div>
             </div>
