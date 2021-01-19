@@ -51,6 +51,10 @@
         <div class="lecture-row">
         <div class="lecture-item"  v-for="module in lectureData">
         <div v-bind:class="module.lecture_live=='0'?'lecture-module module-next':'lecture-module'">
+      
+            <p v-if="module.lecture_live=='0'" class="lecture-mod-item">
+                <span id="mod-coming-soon">Coming soon</span>
+            </p>
             <h2>{{module.title}}</h2>
             <p v-if="module.short_description">{{module.short_description}}</p>
            
@@ -64,6 +68,7 @@
             </ul>
 
             <a v-if="module.lecture_live=='1'" :href="'lectures/' + module.slug">Watch the lecture</a>
+            
         </div>
         </div>
     </div>
