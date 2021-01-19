@@ -56,7 +56,7 @@
     <div class="logo-section">
         <div class="logo-row">
             <div v-for="supporter in supporterData" class="logo-col">
-                <a><img v-bind:src="supporter.logo.data.thumbnails[3].url"></a>
+                <a v-if="supporter.url" :href="supporter.url"><img v-bind:src="supporter.logo.data.thumbnails[3].url"></a>
             </div>
 
         </div>
