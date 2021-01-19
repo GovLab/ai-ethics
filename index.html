@@ -62,7 +62,7 @@
 
     <div id="home-page">
     
-        <div class="row intro-elements" v-for="(intro,index) in indexData" v-if="index<4">
+        <div class="row intro-elements" v-for="(intro,index) in indexData" v-if="index<3">
          
             <div class="intro-text"><div class="text-box"  v-html="intro.intro_text"></div></div>
             <div class="intro-img"  v-bind:style="{ backgroundImage: 'url(' + intro.image.data.full_url + ')' }"></div>
