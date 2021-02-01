@@ -37,7 +37,7 @@
         <a href="modules.html">MODULES</a>
         <a href="instructors.html">INSTRUCTORS</a>
         <a href="partners.html">PARTNERS</a>
-        <a href="contact.html">CONTACT US</a>
+        <a href="contact.html">REGISTER HERE</a>
     </div>
 </header>
 
@@ -49,7 +49,7 @@
     </div>
 <div id="home-page">
     <div class="grid bios">
-        <div v-for="instructor in peopleData" id="p_baeck" class="color-bg bio">
+        <div v-for="instructor in peopleData" id="p_baeck" class="color-bg bio" v-if="instructor.propose_lecture_tile == '0'">
             <div class="image">
                 <div class="square">
                     <img v-bind:src="instructor.headshot.data.thumbnails[3].url">

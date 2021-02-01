@@ -37,7 +37,7 @@
         <a href="modules.html">MODULES</a>
         <a href="instructors.html">INSTRUCTORS</a>
         <a href="partners.html">PARTNERS</a>
-        <a href="contact.html">CONTACT US</a>
+        <a href="contact.html">REGISTER HERE</a>
     </div>
 </header>
 
@@ -56,7 +56,7 @@
                 <span id="mod-coming-soon">Coming soon</span>
             </p>
             <h2>{{module.title}}</h2>
-            <p v-if="module.short_description">{{module.short_description}}</p>
+            <p class="module-description" v-if="module.short_description">{{module.short_description}}</p>
            
             <ul>
                 <li v-for="faculty_item in module.faculty">

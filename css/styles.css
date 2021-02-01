@@ -583,6 +583,7 @@ footer{
 .heading h1{
   margin:0;
   padding: 4rem 20px 0 20px;
+  text-transform: uppercase;
   /* text-decoration: underline;
   text-decoration-color: var(--light-blue); */
   font-weight: 200;
@@ -840,6 +841,9 @@ color: var(--dark-grey);
   .contact.heading{
     padding: 1rem 6rem;
     
+  }
+  .contact.heading h1{
+    text-transform: uppercase;
   }
   .custom-form{
     display:flex;

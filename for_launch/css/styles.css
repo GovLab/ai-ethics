@@ -234,7 +234,7 @@ height:400px;
 .grid{
   display:flex;
   flex-direction:column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   padding: 1rem 8rem 2rem 8rem;
 }
@@ -584,6 +584,7 @@ footer{
 .heading h1{
   margin:0;
   padding: 4rem 20px 0 20px;
+  text-transform: uppercase;
   /* text-decoration: underline;
   text-decoration-color: var(--light-blue); */
   font-weight: 200;
@@ -931,6 +932,10 @@ footer p{
 #covid-pledge{
   height:100px;
 }
+.panel-page{
+  padding: 4rem;
+  text-align: center;
+}
 @media screen and (min-width: 1401px){
   .mod-video .row{
     height: 600px;
@@ -1034,12 +1039,28 @@ padding: 2rem 4rem;
 .lecture-module{
 background-color: var(--light-blue-40);
 color: var(--dark-grey);
-width:100%;
-height: 400px;
+width:90%;
+height: 440px;
 padding: 2rem 0rem 2rem 0rem;
-
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
 border: 10px solid white;
 
+}
+p.module-description{
+  height:140px;
+}
+.lecture-module h2{
+  display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+  height: 140px;
+}
+.lecture-module ul{
+  height: 100px;
 }
 p.lecture-mod-item{
   margin:0;
