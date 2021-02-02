@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-40012093-26"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-40012093-26');
+</script>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="AI Ethics: Global Perspectives is a free, online course designed to raise awareness and help institutions work toward a more responsible use of AI. It brings together leading experts in the field of AI from around the world to consider ethical ramifications of AI and rectify initiatives that might be harmful to particular people and groups in society." />
+    <meta property="og:type" content="website" />
+   <meta property="og:title" content="AI Ethics: Global Perspectives" />
+    <meta property="og:description" content="AI Ethics: Global Perspectives is a free, online course designed to raise awareness and help institutions work toward a more responsible use of AI. It brings together leading experts in the field of AI from around the world to consider ethical ramifications of AI and rectify initiatives that might be harmful to particular people and groups in society." />
+    <meta property="og:image" content="img/thumbnail.png" />
+    <title>AI Ethics:  Global Perspectives</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/@directus/sdk-js@5.3.4/dist/directus-sdk.umd.min.js"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/kwv5eho.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<header class="gl-header">
+    <a class="govlab-logo" href="index.html">
+        AI Ethics: <span id="title-id">Global Perspectives</span>
+    </a>
+    <!-- <div class="menu">
+        <a href="modules.html">MODULES</a>
+        <a href="instructors.html">INSTRUCTORS</a>
+        <a href="partners.html">PARTNERS</a>
+        <a href="contact.html">REGISTER HERE</a>
+    </div> -->
+</header>
+
+<body>
+    <div class="contact heading">
+        <!-- <h1>CONTACT US</h1>
+        <h4>We want to hear from you!
+        </h4>
+           <p> Contact us at ai [at] thegovlab [dot] org
+           </p> -->
+
+    <h1>AI Ethics: Global Perspectives – Suggest a Course</h1>
+    <p><span style="color:red">*</span> indicates required field</p>
+    <p>Interested in adding a lecture to AI Ethics: Global Perspectives? Tell us more using the form below!<br><br>
+        We are committed to respecting your privacy and abides by all the practices and principles outlined by New York University in its Digital Privacy Statement. For more information, please review the full statement <a href="https://www.nyu.edu/footer/copyright-and-fair-use/digital-privacy-statement.html">here.</a></p>
+</div>
+<div class="grid form">
+    <script type="text/javascript">var submitted=false;</script>
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+      onload="if(submitted) {window.location='thankyou.html';}">
+    </iframe>
+    <form name="form" class="custom-form"
+    action="https://docs.google.com/forms/d/e/1FAIpQLSda_wN-VHU3bBHMfk1DJqkjX4le6W4QhUEK_inNXmRnhB1Sug/formResponse"
+        method="post" target="hidden_iframe" onsubmit="submitted=true;" aria-label="form to subscribe">
+        <h4>Name <span style="color:red">*</span></h4>
+        <input type="text" placeholder="" name="entry.518904903" aria-hidden=”true”>
+        <h4>Email Address <span style="color:red">*</span></h4>
+        <input type="text" placeholder="" name="entry.2016798241" aria-hidden=”true”>
+        <h4>Affiliation<span style="color:red">*</span></h4>
+        <input type="text" placeholder="" name="entry.1149682286" aria-hidden=”true”>
+        <h4>Tell us more about yourself and proposed module below:<span style="color:red">*</span></h4>
+        <textarea id="long-answer" placeholder="" name="entry.1411257017" rows="3" aria-hidden=”true”></textarea>
+        <button name="subscribe form button" class="form-button" type="submit" aria-hidden=”true”>SUBMIT</button>
+    </form>
+    </div>
+</body>
+<div class="separator">
+    <h2>Partners</h2>
+</div>
+<div id="home-page">
+<div id="partners" class="white-section">
+    <div  v-html="indexData[0].partner_section_text">
+        
+    </div>
+    <div class="logo-section">
+        <div class="logo-row">
+            <div v-for="supporter in supporterData" class="logo-col">
+                <a v-if="supporter.url" :href="supporter.url"><img v-bind:src="supporter.logo.data.thumbnails[3].url"></a>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+</div>
+<footer>
+    <!-- <a href="pledge.html"><img id="covid-pledge" src="img/cropped-OCP_WP_logo_240x240.png"></a> -->
+    <img src="img/cc-logo.png">
+    <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+            Attribution-ShareAlike 4.0 International License</a>.</p>
+    <!-- <p id="privacy"><a href="privacy.html">Privacy Policy</a> and <a href="terms.html">Terms of Use</a>.</p> -->
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+</script>
+<script src='https://unpkg.com/vue@2.0.3/dist/vue.js'></script>
+<script src="https://unpkg.com/vue-meta/dist/vue-meta.min.js"></script>
+<script src="js/scripts.js"></script>
+<script src="js/ai-ethics.js"></script>
+</html>

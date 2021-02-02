@@ -37,15 +37,14 @@ header img{
 .gl-header{
   display:flex;
   flex-direction: column;
-
+  background-color: var(--dark-grey-10);
 }
 .menu{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width:70%;
-  margin-top:10px;
-  padding:0 12rem;
+  padding:1rem 12rem;
 }
 
 .menu a{
@@ -234,7 +233,7 @@ height:400px;
 .grid{
   display:flex;
   flex-direction:column;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   padding: 1rem 8rem 2rem 8rem;
 }
@@ -686,6 +685,15 @@ color: var(--dark-grey);
   }
   .faculty-item{
     padding: 0 2rem;
+  }
+  .faculty-item.special{
+    padding: 0 2rem;
+    background-color: var(--light-blue-40);
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   #expert-name{
     font-weight: 600;
@@ -1195,6 +1203,7 @@ p.lecture-mod-item{
     padding:0 4rem;
     justify-content: center;
     text-align: center;
+    
   }
 
 .menu{

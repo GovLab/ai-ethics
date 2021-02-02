@@ -41,7 +41,7 @@
     </div>
 </header>
 
-<body>
+<body data-feedly-mini="yes">
     <div class="heading" onload="expand()">
         <h1>INSTRUCTORS</h1>
         <p>Learn from leading experts in collective intelligence and crisis response
@@ -49,7 +49,7 @@
     </div>
 <div id="home-page">
     <div class="grid bios">
-        <div v-for="instructor in peopleData" id="p_baeck" class="color-bg bio" v-if="instructor.propose_lecture_tile == '0'">
+        <div v-for="instructor in peopleData" :id="instructor.slug" class="color-bg bio" v-if="instructor.propose_lecture_tile == '0'">
             <div class="image">
                 <div class="square">
                     <img v-bind:src="instructor.headshot.data.thumbnails[3].url">
@@ -63,7 +63,7 @@
 
                 </p>
               <button class="accordion" @click="expand()"><i class="material-icons down"></i></button>
-              <div class="panel" v-html="instructor.bio">
+              <div v-if="instructor.bio" class="panel" v-html="instructor.bio">
                 
               </div>
             </div>

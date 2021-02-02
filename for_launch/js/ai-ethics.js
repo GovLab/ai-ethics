@@ -30,6 +30,7 @@ new Vue({
   
     return {
       lectureData: [],
+      iniLoad: 0,
       peopleData: [],
       supporterData: [],
       indexData: [],
@@ -46,7 +47,9 @@ new Vue({
     this.expand();
   },
 
-
+  updated () {
+    this.scrollToAnchor();
+    },
   methods: {
     fetchIndex() {
       self = this;
@@ -141,6 +144,15 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 
+    },
+    scrollToAnchor () {
+      this.$nextTick(() => {
+        if(window.location.hash && this.iniLoad==0) {
+          const $el = document.getElementById(window.location.hash.substring(1));
+          $el && window.scrollTo(0, $el.offsetTop);
+           this.iniLoad = 1;
+        }
+      });
     }
 }
 });
