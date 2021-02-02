@@ -1,3 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <meta http-equiv="Refresh" content="0; URL=https://aiethicscourse.org/contact.html">
-  </head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-40012093-26"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-40012093-26');
+    </script>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="AI Ethics" />
+    <meta property="og:description" content="A Collection of Lectures on the Ethical implications of Data and Artificial Intelligence from Different Perspectives" />
+    <meta property="og:image" content="img/thumbnail.png" />
+    <title>AI Ethics</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/@directus/sdk-js@5.3.4/dist/directus-sdk.umd.min.js"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/kwv5eho.css">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<header class="gl-header">
+
+    <a class="govlab-logo" href="index.html">
+        AI Ethics: <span id="title-id">Global Perspectives</span>
+    </a>
+    <div class="menu">
+        <a href="modules.html">MODULES</a>
+        <a href="instructors.html">INSTRUCTORS</a>
+        <a href="partners.html">PARTNERS</a>
+        <a href="contact.html">REGISTER HERE</a>
+    </div>
+</header>
+
+<body>
+    <div class="hero">
+        <div class="hero-img">
+          <div class="video">
+            <div class="">
+                <div style="padding:56.25% 0 0 0;position:relative; border:5px solid #32CBFF"><iframe src="https://player.vimeo.com/video/502746886?loop=1&title=0&byline=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+            </div>
+          </div>
+        </div>
+        <div class="hero-title">
+            <!-- <h1>AI Ethics: Global Perspectives</h1> -->
+            <img src="img/ai-ethics-logo-1.png">
+            <p style="text-align:center;padding:1rem">A Collection of Lectures on the Ethical implications of<br>Data and Artificial Intelligence from Different Perspectives</p>
+  
+        </div>
+      </div>
+
+    <div class="main-button top-btn">
+        <a class="btn" href="instructor-panels.html">Watch Instructor Panels</a>
+
+    </div>
+
+    <div id="home-page">
+    
+        <div class="row intro-elements" v-for="(intro,index) in indexData" v-if="index<3">
+         
+            <div class="intro-text"><div class="text-box"  v-html="intro.intro_text"></div></div>
+            <div class="intro-img"  v-bind:style="{ backgroundImage: 'url(' + intro.image.data.full_url + ')' }"></div>
+
+        </div>
+        <div class="join">
+            <div class="join-text" v-html="indexData[3].intro_text">
+
+            </div>
+        </div>
+
+
+
+        <div class="separator">
+            <h2>Learn from leading experts</h2>
+        </div>
+
+        <div class="grid experts">
+            <ul>
+                <li v-for="faculty in peopleData"><div v-bind:class="[!faculty.propose_lecture_tile  ? 'faculty-item' : 'faculty-item special']"><span class="color-bg home bio" v-if="faculty.headshot">
+                            
+                    <div class="image">
+                    <div class="square">
+                        <img v-bind:src="faculty.headshot.data.thumbnails[3].url">
+                    </div>
+                </div>
+
+                <a v-if="!faculty.propose_lecture_tile" id="inst-link" :href="'instructors.html#'+faculty.slug"><span id="expert-name">{{faculty.name}}</span><br>{{faculty.title}},
+                    {{faculty.organization}}</a>
+                <a v-if="faculty.propose_lecture_tile" id="inst-link" href="suggest.html"><span id="expert-name">{{faculty.name}}</span><br>{{faculty.title}},
+                        {{faculty.organization}}</a>
+                    <div class="module-name" v-for="module in lectureData">
+                        <template v-for="mod_faculty in module.faculty">
+                        <p v-if="mod_faculty.faculty_junction_id.id==faculty.id"><span id="mod-heading">MODULE:&nbsp</span><a v-if="module.lecture_live=='1'":href="'lectures/'+module.slug">{{module.title}}</a><span v-if="module.lecture_live=='0'">{{module.title}}</span></p>
+                        </template>
+                    </div>
+                </span>
+                </div>
+            
+                </li>
+                
+            </ul>
+        </div>
+
+
+
+<div class="separator">
+    <h2>Partners</h2>
+</div>
+<div id="partners" class="white-section">
+
+    <div class="logo-section">
+        <div class="logo-row">
+            <div v-for="supporter in supporterData" class="logo-col">
+                <div class="image">
+                    <div class="square">
+                        <a v-if="supporter.url" :href="supporter.url"><img v-bind:src="supporter.logo.data.thumbnails[3].url"></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+</div>
+    
+</body>
+<footer>
+    <img src="img/cc-logo.png">
+    <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+            Attribution-ShareAlike 4.0 International License</a>.</p>
+    <!-- <p id="privacy"><a href="privacy.html">Privacy Policy</a> and <a href="terms.html">Terms of Use</a>.</p> -->
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+</script>
+<script src='https://unpkg.com/vue@2.0.3/dist/vue.js'></script>
+<script src="https://unpkg.com/vue-meta/dist/vue-meta.min.js"></script>
+<script src="js/scripts.js"></script>
+<script src="js/ai-ethics.js"></script>
+
+</html>
