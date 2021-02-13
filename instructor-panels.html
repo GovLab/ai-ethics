@@ -44,18 +44,36 @@
 </header>
 
 <body>
-    <div class="heading" onload="expand()">
+    <div class="heading panels">
         <h1>Instructor Panels</h1>
-
     </div>
 
     <div id="home-page">
         <div class="panel-page">
-            <h3>Coming soon</h3>
-            <p>To allow for a more in-depth discussion of the course contents and Q&A from a public audience, we will
-                host a series of monthly panel discussions with course instructors, moderated by course leads Julia
-                Stoyanovich, Christoph Lutge, and Stefaan Verhulst. Panels will also be recorded and uploaded here – we
-                will update this page with more details in the coming weeks. </p>
+            <div class="event-item" v-for="event in eventsData"  v-if="event.status =='published' && event.date >= currentDate">
+                <div class="event-title">
+                    <h2>{{event.title}}</h2>
+                </div>
+                <div class="event-date">
+                    <i class="material-icons">insert_invitation</i><p>&nbsp{{dateShow(event.date)}}</p>
+                </div>
+                <div class="event-date">
+                    <i class="material-icons">schedule</i><p>&nbsp{{event.event_time}}</p>
+                </div>
+                <div class="event-short-description">
+                    <div v-if="!event.extended" v-html="event.short_desc"></div>
+                </div>
+                <div class="event-long-description">
+  
+                    <div v-if="event.extended && event.description" v-html="event.description"></div>
+                    <div class="event-link">
+                    <a v-if="!event.extended && event.description" @click="showDesc(event)" class="event-button read-more" target="_blank"> Read More <i class="material-icons">keyboard_arrow_down</i></a>
+                    <a v-if="event.extended" @click="showExc(event)" class="event-button read-more" target="_blank"> Read Less<i class="material-icons">keyboard_arrow_up</i></a>
+                    <a :href="event.registration_link" class="event-button">Sign up now!</a> 
+                </div>
+                </div>
+              
+            </div>
         </div>
         <div class="separator">
             <h2>Partners</h2>
@@ -88,7 +106,8 @@
 </script>
 <script src='https://unpkg.com/vue@2.0.3/dist/vue.js'></script>
 <script src="https://unpkg.com/vue-meta/dist/vue-meta.min.js"></script>
-
+<script src="https://momentjs.com/downloads/moment.js"></script>
+<script src="https://momentjs.com/downloads/moment-timezone-with-data.js"></script>
 <script src="js/ai-ethics.js"></script>
 
 </html>

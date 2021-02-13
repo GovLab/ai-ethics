@@ -403,6 +403,53 @@ color: #ffffff;
   padding: 1rem 0;
   border-bottom: 1px solid black;
 }
+.event-item{
+  display:flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 2rem;
+}
+.event-date{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0.5rem 0;
+}
+.event-date i{
+  color: var(--dark-grey);
+}
+.event-date p{
+  margin:0;
+  font-weight: 500;
+}
+.event-title{
+  padding: 1rem 0;
+}
+.event-title h2{
+ color: var(--dark-grey);
+ font-weight: 600;
+ font-size: 1.3rem;
+ margin:0;
+ text-transform: uppercase;
+}
+a.event-button{
+  padding: 0.5rem 1rem;
+  background-color: var(--dark-grey);
+  color: #ffffff;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+  margin: 0 1rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+.event-link{
+  margin: 1rem 0;
+  display: flex;
+}
+a.event-button.read-more{
+  margin-left:0;
+}
 @media screen and (min-width: 320px) and (max-width: 768px){
   .hero{
     display: flex;
@@ -410,7 +457,25 @@ color: #ffffff;
     height: 100%;
     padding: 2rem 0 0 0;
   }
-
+  .event-item{
+    padding: 0;
+  }
+    .event-link{
+    margin: 0em;
+    display: flex;
+    flex-direction: column;
+  }
+  a.event-button{
+    margin: 1rem 0;
+  }
+  .event-link{
+    margin: 0;
+  
+  }
+  .panel-page{
+    padding: 1rem 1rem;
+    text-align: center;
+  }
 .hero-img{
 width:100%;
 }
@@ -580,6 +645,13 @@ footer{
 .heading{
   text-align:center;
   background-color:var(--white);
+}
+.heading.panels{
+  background-color: var(--light-blue);
+  padding: 2rem;
+}
+.heading.panels h1{
+  padding: 0;
 }
 .heading h1{
   margin:0;
@@ -942,7 +1014,7 @@ footer p{
   height:100px;
 }
 .panel-page{
-  padding: 4rem;
+  padding: 1rem 6rem;
   text-align: center;
 }
 @media screen and (min-width: 1401px){
@@ -1040,6 +1112,13 @@ footer p{
   #cc{
     display:flex;
     flex-direction: column;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 768px){
+
+  .panel-page{
+    padding: 1rem 1rem;
+    text-align: center;
   }
 }
 .lecture-page{

@@ -30,7 +30,10 @@ new Vue({
   
     return {
       lectureData: [],
+      eventsData: [],
+      currentDate: '',
       iniLoad: 0,
+      eventsData: [],
       peopleData: [],
       supporterData: [],
       indexData: [],
@@ -41,10 +44,12 @@ new Vue({
   created: function created() {
 
     this.fetchIndex();
+    
     this.fetchSupporter();
     this.fetchLecture();
     this.fetchPeople();
     this.expand();
+    this.fetchEvents();
   },
 
   updated () {
@@ -70,6 +75,29 @@ new Vue({
 })
 .catch(error => console.error(error));
     },
+    fetchEvents() {
+      self = this;
+      const client = new DirectusSDK({
+        url: "https://directus.thegovlab.com/",
+        project: "ai-ethics",
+        storage: window.localStorage
+      });
+
+      client.getItems(
+  'instructor_panel',
+  {
+    sort: '-date',
+    fields: ['*.*']
+  }
+).then(data => {
+
+  this.currentDate = moment().tz("America/Toronto").format('YYYY-MM-DD');
+  self.eventsData = data.data;
+  console.log(self.eventsData);
+
+})
+.catch(error => console.error(error));
+    },
     fetchPeople() {
       self = this;
       const client = new DirectusSDK({
@@ -88,6 +116,9 @@ new Vue({
   self.peopleData = data.data;
 })
 .catch(error => console.error(error));
+    },
+    dateShow(date) {
+      return moment(date).format("LL");
     },
     fetchLecture() {
       self = this;
@@ -127,6 +158,12 @@ new Vue({
   
 })
 .catch(error => console.error(error));
+    },
+    showDesc(eventO) {
+      eventO['extended'] = true;
+    },
+    showExc(eventO) {
+      eventO['extended'] = false;
     },
     expand(){
       var acc = document.getElementsByClassName("accordion");
