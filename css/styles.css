@@ -3,7 +3,7 @@
   --dark-grey: #02222e;
   --dark-grey-10: #02222e11;
   --dark-grey-40: #02222e54;
-  --dark-grey-80: #02222ef3;
+  --dark-grey-80: #02222e98;
   --light-blue: #32CBFF;
   --light-blue-40: #32ccff41;
   --light-blue-transparent: #32ccff6c;
@@ -450,6 +450,123 @@ a.event-button{
 a.event-button.read-more{
   margin-left:0;
 }
+
+.close{
+width: 5%;
+text-align: right;
+margin-right: 20px;
+}
+a.close{
+  font-size: 2rem;
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+.text-alert{
+  text-align: center;
+  width:95%;
+}
+p.text-alert{
+  color: var(--secondary-color);
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin: 0 1rem;
+}
+#sub-text{
+  color: var(--secondary-color);
+  font-weight: 400;
+  font-size: 1rem;
+}
+a#text-link{
+  color: var(--dark-grey);
+text-decoration: none;
+font-weight: 600;
+}
+.page-body .alert-section  a{
+  color: #ffffff;
+}
+.key-docs ul{ 
+line-height: 2;
+}
+
+.alert-section{
+  bottom: 50px;
+  position: relative;
+  padding: 2rem 5rem;
+  margin: 0 10em;
+  background-color: var(--dark-grey);
+  border-radius: 10px;
+  text-align: center;
+  z-index:100;
+}
+.alert-description{
+  padding: 0.5rem 0;
+}
+.alert-section h3{
+  color: var(--white);
+  text-transform: uppercase;
+  margin:0 0 1rem 0;
+}
+.alert-section p{
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #ffffff;
+  margin:0 0 1rem 0;
+}
+.alert-section .main-button{
+  padding:1rem;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.alert-section .main-button a{
+  padding: 10px 20px;
+  margin: 0 20px;
+  background-color: #ffffff;
+  color: var(--main-color);
+  text-transform: uppercase;
+  border-bottom: none;
+  text-decoration: none;
+}
+.alert-section .main-button a#close-button{
+  padding: 10px 20px;
+  background-color: #991234;
+  color: #ffffff;
+  cursor: pointer;
+}  
+
+@media screen and (min-width: 320px) and (max-width: 780px){
+
+    .alert-section .main-button{
+      padding:0;
+      display:flex;
+      flex-direction: column;
+    }
+    .apply-now .main-button{
+      padding:0;
+      display:flex;
+      flex-direction: column;
+    }
+    .alert-section .main-button a{
+      margin-top: 10px;
+    }
+    .apply-now .main-button a{
+      margin-top: 10px;
+    }
+    .apply-now{
+      padding: 2rem 1rem;
+    }
+    .alert-section{
+      top: 50px;
+      bottom:unset;
+      position: absolute;
+      padding: 1.5rem 1rem;
+      margin: 0 1em;
+      border-radius: 10px;
+      background-color: var(--dark-grey);
+      text-align: center;
+    }
+  }
 @media screen and (min-width: 320px) and (max-width: 768px){
   .hero{
     display: flex;

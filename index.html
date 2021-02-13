@@ -63,7 +63,16 @@
     </div>
 
     <div id="home-page">
-    
+
+        <div id="alert-banner" v-for="alert in alertData" v-if="alert.live == true" class="alert-section" >
+            <h3>{{alert.title}}</h3>
+            <div class="alert-description"><p>{{alert.short_description}}</p></div>
+            <div class="main-button">
+                <a v-if="alert.link" target="_blank":href="alert.link">{{alert.button_text}}</a>
+              <a id="close-button" onclick="close_alert()">Close</a>
+            </div>
+          </div>
+
         <div class="row intro-elements" v-for="(intro,index) in indexData" v-if="index<3">
          
             <div class="intro-text"><div class="text-box"  v-html="intro.intro_text"></div></div>
@@ -145,5 +154,10 @@
 <script src="https://unpkg.com/vue-meta/dist/vue-meta.min.js"></script>
 <script src="js/scripts.js"></script>
 <script src="js/ai-ethics.js"></script>
-
+<script>
+    function close_alert() {
+      var x = document.getElementById("alert-banner");
+      x.style.display = "none";
+    }
+  </script>
 </html>
