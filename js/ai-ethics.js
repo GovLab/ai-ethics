@@ -38,7 +38,7 @@ new Vue({
       peopleData: [],
       supporterData: [],
       indexData: [],
-      apiURL: 'https://directus.thegovlab.com/ai-ethics',
+      apiURL: 'https://directus.thegovlab.com/ai-ethics'
     }
   },
 
@@ -207,7 +207,7 @@ for (i = 0; i < acc.length; i++) {
       this.$nextTick(() => {
         if(window.location.hash && this.iniLoad==0) {
           const $el = document.getElementById(window.location.hash.substring(1));
-          $el && window.scrollTo(0, $el.offsetTop);
+          window.scrollTo(0, $el.offsetTop);
            this.iniLoad = 1;
         }
       });
