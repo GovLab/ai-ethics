@@ -46,7 +46,7 @@
 
 <body>
     <div class="heading panels">
-        <h1>Instructor Panels</h1>
+        <h1>Upcoming Panels</h1>
     </div>
 
     <div id="home-page">
@@ -88,7 +88,7 @@
         </div>
         <div class="panel-page">
             <div class="recording-item" v-for="event in eventsData"
-                v-if="event.status =='published' && event.date >= currentDate">
+                >
                 <div class="recording-img">
                     <img v-if="event.thumbnail" class="project-img" :src="event.thumbnail.data.full_url">
                 </div>
