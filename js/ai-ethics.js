@@ -30,6 +30,7 @@ new Vue({
   
     return {
       lectureData: [],
+      aboutData: [],
       eventsData: [],
       alertData: [],
       currentDate: '',
@@ -45,6 +46,7 @@ new Vue({
   created: function created() {
 
     this.fetchIndex();
+    this.fetchAbout();
     this.fetchAlerts();
     this.fetchSupporter();
     this.fetchLecture();
@@ -73,6 +75,25 @@ new Vue({
 ).then(data => {
   console.log(data)
   self.indexData = data.data;
+})
+.catch(error => console.error(error));
+    },
+    fetchAbout() {
+      self = this;
+      const client = new DirectusSDK({
+        url: "https://directus.thegovlab.com/",
+        project: "ai-ethics",
+        storage: window.localStorage
+      });
+
+      client.getItems(
+  'about',
+  {
+    fields: ['*.*']
+  }
+).then(data => {
+  console.log(data)
+  self.aboutData = data.data;
 })
 .catch(error => console.error(error));
     },

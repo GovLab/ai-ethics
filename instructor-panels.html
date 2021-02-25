@@ -45,11 +45,21 @@
 </header>
 
 <body>
+    <div id="home-page">
     <div class="heading panels">
+        <h1>Instructor Panels</h1>
+    </div>
+    <div class="panel-page" v-for="about_panel in aboutData">
+    
+        <div v-if="about_panel.name_id == 'instructor-panel'" v-html="about_panel.description">
+
+        </div>
+    </div>
+    <div class="heading panel-sub panels">
         <h1>Upcoming Panels</h1>
     </div>
 
-    <div id="home-page">
+    
         <div class="panel-page">
             <p v-for="(event,index) in eventsData" v-if="event.date < currentDate && index==eventsData.length-1">No upcoming events</p>
             <div class="event-item" v-for="(event,index) in eventsData"
@@ -85,7 +95,7 @@
             </div>
 
         </div>
-        <div class="heading panels">
+        <div class="heading panel-sub panels">
             <h1>Previous Panels</h1>
         </div>
         <div class="panel-page">

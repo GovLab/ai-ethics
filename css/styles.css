@@ -782,6 +782,16 @@ footer{
   background-color: var(--light-blue);
   padding: 2rem;
 }
+.heading.panel-sub{
+  background-color: var(--light-blue-40);
+  padding: 1rem;
+}
+.heading.panels.panel-sub h1{
+  padding: 0;
+  font-weight: 300;
+  color: var(--dark-grey);
+  font-size: 1.4rem;
+}
 .heading.panels h1{
   padding: 0;
 }
