@@ -88,7 +88,7 @@ new Vue({
   'instructor_panel',
   {
     sort: '-date',
-    fields: ['*.*']
+    fields: ['*.*','panelists.people_id.*','thumbnail.*']
   }
 ).then(data => {
 
