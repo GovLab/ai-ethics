@@ -51,8 +51,10 @@
 
     <div id="home-page">
         <div class="panel-page">
-            <div class="event-item" v-for="event in eventsData"
+            <p v-for="(event,index) in eventsData" v-if="event.date < currentDate && index==eventsData.length-1">No upcoming events</p>
+            <div class="event-item" v-for="(event,index) in eventsData"
                 v-if="event.status =='published' && event.date >= currentDate">
+                
                 <div class="event-title">
                     <h2>{{event.title}}</h2>
                 </div>
