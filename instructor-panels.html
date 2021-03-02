@@ -99,7 +99,7 @@
             <h1>Previous Panels</h1>
         </div>
         <div class="panel-page">
-            <div class="recording-item" v-for="event in eventsData"
+            <div class="recording-item" v-for="event in eventsData" v-if="event.date < currentDate"
                 >
                 <div class="recording-img">
                     <img v-if="event.thumbnail" class="project-img" :src="event.thumbnail.data.full_url">
