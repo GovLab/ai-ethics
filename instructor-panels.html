@@ -61,7 +61,7 @@
 
     
         <div class="panel-page">
-            <p v-for="(event,index) in eventsData" v-if="event.date < currentDate && index==eventsData.length-1">No upcoming events</p>
+            <p v-for="(event,index) in eventsData" v-if="event.date < currentDate && index==eventsData.length">No upcoming events</p>
             <div class="event-item" v-for="(event,index) in eventsData"
                 v-if="event.status =='published' && event.date >= currentDate">
                 
