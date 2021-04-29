@@ -99,6 +99,7 @@
             <h1>Previous Panels</h1>
         </div>
         <div class="panel-page">
+            <div class="recording-row">
             <div class="recording-item" v-for="event in eventsData" v-if="event.date < currentDate"
                 >
                 <div class="recording-img">
@@ -126,6 +127,7 @@
                     <a :href="event.blog_link" class="event-button">Read the blog</a>
                     </div>
                 </div>
+            </div>
             </div>
         </div>
         <div class="separator">
