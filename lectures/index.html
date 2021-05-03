@@ -48,7 +48,7 @@
  
     <div class="mod-video">
         <h1>{{lectureData[0].title}}</h1>
-        <a id="inst-link" href="../instructors.html">By <span v-for="(faculty_item,index) in lectureData[0].faculty">{{faculty_item.faculty_junction_id.name}}<span v-if="index != lectureData[0].faculty.length">,</span></span></a>
+        <a id="inst-link" href="../instructors.html">By <span v-for="(faculty_item,index) in lectureData[0].faculty">{{faculty_item.faculty_junction_id.name}}<span v-if="index + 1 != lectureData[0].faculty.length">,&nbsp</span></span></a>
         <p>{{lectureData[0].description}}</p>
 
         <div class="row vid-desc">
