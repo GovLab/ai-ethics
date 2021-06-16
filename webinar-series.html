@@ -100,6 +100,7 @@
         </div>
         <div class="panel-page">
             <div class="webinar-row">
+                
             <a :href="'webinars/' + event.slug" class="webinar-item" v-for="event in webinarData">
                 <div class="webinar-img">
                     <img v-if="event.thumbnail" class="project-img" :src="event.thumbnail.data.full_url">
