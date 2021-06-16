@@ -8,6 +8,7 @@
   --light-blue-10: #32ccff13;
   --light-blue-40: #32ccff41;
   --light-blue-transparent: #32ccff6c;
+  --dark-blue: #2C384A;
   --light-grey: #dadada;
   --grey-10: #33333310;
   --grey: #3d3d3d;
@@ -1560,6 +1561,79 @@ p.lecture-mod-item{
     display:flex;
     flex-direction: column;
   }
+}
+.webinar-row{
+  width:100%;
+  height:100%;
+  display: flex;
+  flex-direction: row ;
+  max-width: none;
+margin-left: auto;
+margin-right: auto;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+-webkit-flex-flow: row wrap;
+-ms-flex-flow: row wrap;
+flex-flow: row wrap;
+}
+.webinar-item{
+  display:flex;
+  -webkit-flex: 0 0 28%;
+  -ms-flex: 0 0 28%;
+  flex: 0 0 28%;
+  max-width: 28%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 2rem; 
+ text-decoration: none;
+}
+.webinar-item:hover .webinar-body{
+  background-color: var(--light-blue);
+  border: 1px solid var(--light-blue);
+  transition: 0.6s ease-in-out;
+}
+.webinar-item:hover .webinar-img{
+  width:100%;
+  border: 1px solid var(--light-blue);
+}
+.webinar-img{
+  width:100%;
+  border: 1px solid var(--dark-blue);
+}
+.webinar-body{
+  text-align: center;
+  border: 1px solid var(--dark-blue);
+  width:100%;
+  height: 100%;
+  padding-bottom:1rem;
+  background-color: var(--dark-blue);
+/* background-color: var(--light-blue-10); */
+}
+.webinar-body .webinar-org h4{
+text-transform: uppercase;
+font-size: 0.8rem;
+font-weight: 600;
+color: #ffffff;
+margin: 1rem 0 0.5rem 0;
+}
+.webinar-body .webinar-title h4{
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 200;
+  color: #ffffff;
+  margin:0;
+  }
+.recording-body h4{
+  font-size: 1.1rem;
+  margin:10px 0;
+
+}
+.recording-title{
+  text-align: left;
+  padding:0 1rem;
 }
 .recording-row{
   width:100%;
