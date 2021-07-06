@@ -63,7 +63,7 @@
                 <div class="recording-title">
                     <h4>{{event.title}}</h4>
                 </div>
-                <div class="recording-panelists">
+                <div v-if="event.panelists" class="recording-panelists">
                     <span v-for="(panelist,index) in event.panelists"><a
                         :href="'instructors.html#'+panelist.people_id.slug">{{panelist.people_id.name}}</a><span
                         v-if="index != event.panelists.length-1">,&nbsp</span></span>
@@ -78,7 +78,7 @@
                 <div class="recording-button">
                 <a :href="event.video_link" class="event-button" target="_blank">
                     Watch the video</a>
-                <a :href="event.blog_link" class="event-button">Read the blog</a>
+                <a v-if="event.blog_link" :href="event.blog_link" class="event-button">Read the blog</a>
                 </div>
             </div>
         </div>
