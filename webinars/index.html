@@ -38,7 +38,7 @@
     <div class="menu">
         <a href="../modules.html">MODULES</a>
         <a href="../instructors.html">INSTRUCTORS</a>
-        <a href="../webinar-series.html">Watch Instructor Panels</a>
+        <a href="../webinar-series.html">Webinar Series</a>
         <a href="../partners.html">PARTNERS</a>
         <a href="../contact.html">REGISTER HERE</a>
     </div>
@@ -46,66 +46,69 @@
 
 <body>
     <div id="home-page">
-    <div class="heading panels">
-        <h1>Instructor Panels</h1>
-    </div>
-    <div v-if="eventsData[0].description" class="recording-description">
-        <div v-html="eventsData[0].description"></p>
-    </div>
-    <div class="panel-page">
-        <div class="recording-row">
-
-        <div class="recording-item" v-for="event in eventsData" v-if="(event.date < currentDate) && (slugData == event.series)"
-            >
-     
-            <div class="recording-img">
-                <img v-if="event.thumbnail" class="project-img" :src="event.thumbnail.data.full_url">
+        <div v-for="webinar in webinarData" v-if="webinar.slug == slugData">
+            <div class="heading panels">
+                <h1>webinar.title</h1>
             </div>
-            <div class="recording-body">
-                <div class="recording-title">
-                    <h4>{{event.title}}</h4>
-                </div>
-    
-                <div v-if="event.panelists" class="recording-panelists">
-                    <span v-for="(panelist,index) in event.panelists"><a
-                        :href="'instructors.html#'+panelist.people_id.slug">{{panelist.people_id.name}}</a><span
-                        v-if="index != event.panelists.length-1">,&nbsp</span></span>
-                </div>
-                <div class="recording-date">
-                    <i class="material-icons">insert_invitation</i>
-                    <p>&nbsp{{dateShow(event.date)}}</p>
-                </div>
-                <!-- <div class="recording-short-description">
+            <div v-if="webinar.description" class="recording-description">
+                <div v-html="webinar.description"></div>
+            </div>
+        </div>
+        <div class="panel-page">
+            <div class="recording-row">
+
+                <div class="recording-item" v-for="event in eventsData"
+                    v-if="(event.date < currentDate) && (slugData == event.series)">
+
+                    <div class="recording-img">
+                        <img v-if="event.thumbnail" class="project-img" :src="event.thumbnail.data.full_url">
+                    </div>
+                    <div class="recording-body">
+                        <div class="recording-title">
+                            <h4>{{event.title}}</h4>
+                        </div>
+
+                        <div v-if="event.panelists" class="recording-panelists">
+                            <span v-for="(panelist,index) in event.panelists"><a
+                                    :href="'instructors.html#'+panelist.people_id.slug">{{panelist.people_id.name}}</a><span
+                                    v-if="index != event.panelists.length-1">,&nbsp</span></span>
+                        </div>
+                        <div class="recording-date">
+                            <i class="material-icons">insert_invitation</i>
+                            <p>&nbsp{{dateShow(event.date)}}</p>
+                        </div>
+                        <!-- <div class="recording-short-description">
                     <div  v-html="event.short_desc"></div>
                 </div> -->
-                <div class="recording-button">
-                <a :href="event.video_link" class="event-button" target="_blank">
-                    Watch the video</a>
-                <a v-if="event.blog_link" :href="event.blog_link" class="event-button">Read the blog</a>
+                        <div class="recording-button">
+                            <a :href="event.video_link" class="event-button" target="_blank">
+                                Watch the video</a>
+                            <a v-if="event.blog_link" :href="event.blog_link" class="event-button">Read the blog</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        </div>
-    </div>
 
         <div class="heading panel-sub panels">
             <h1>Other Panels</h1>
         </div>
         <div class="panel-page">
             <div class="webinar-row">
-            <a :href="'https://aiethicscourse.org/webinars/' + event.slug" class="webinar-item" v-for="event in webinarData">
-                <div class="webinar-img">
-                    <img v-if="event.thumbnail" class="project-img" :src="event.thumbnail.data.full_url">
-                </div>
-                <div class="webinar-body">
-                    <div class="webinar-org">
-                        <h4>{{event.organizer}}</h4>
+                <a :href="'https://aiethicscourse.org/webinars/' + event.slug" class="webinar-item"
+                    v-for="event in webinarData">
+                    <div class="webinar-img">
+                        <img v-if="event.thumbnail" class="project-img" :src="event.thumbnail.data.full_url">
                     </div>
-                    <div class="webinar-title">
-                        <h4>{{event.title}}</h4>
+                    <div class="webinar-body">
+                        <div class="webinar-org">
+                            <h4>{{event.organizer}}</h4>
+                        </div>
+                        <div class="webinar-title">
+                            <h4>{{event.title}}</h4>
+                        </div>
                     </div>
-                </div>
-            </a>
+                </a>
             </div>
         </div>
         <div class="separator">
