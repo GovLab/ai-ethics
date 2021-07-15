@@ -48,7 +48,7 @@
     <div id="home-page">
         <div v-for="webinar in webinarData" v-if="webinar.slug == slugData">
             <div class="heading panels">
-                <h1>webinar.title</h1>
+                <h1>{{webinar.title}}</h1>
             </div>
             <div v-if="webinar.description" class="recording-description">
                 <div v-html="webinar.description"></div>
