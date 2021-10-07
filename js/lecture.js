@@ -59,6 +59,7 @@ new Vue({
     filter: {
       slug: self.lectureslug
     },
+    sort: -sort,
     fields: ['*.*','faculty.faculty_junction_id.*','readings.reading_junction_id.*']
   }
 ).then(data => {
