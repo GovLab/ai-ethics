@@ -38,6 +38,7 @@ new Vue({
 
     this.lectureslug=window.location.href.split('/');
     this.lectureslug = this.lectureslug[this.lectureslug.length - 1];
+
     this.fetchLecture();
 
   },
@@ -59,7 +60,7 @@ new Vue({
     filter: {
       slug: self.lectureslug
     },
-    sort: 'sort',
+    sort: 'order',
     fields: ['*.*','faculty.faculty_junction_id.*','readings.reading_junction_id.*']
   }
 ).then(data => {
@@ -67,7 +68,7 @@ new Vue({
   self.lectureData = data.data;
 })
 .catch(error => console.error(error));
-    },
+    }
 
 }
 });
