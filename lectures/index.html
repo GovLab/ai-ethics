@@ -64,7 +64,7 @@
     </div>
     <div class="main-button">
      
-        <a v-if="lectureData[0].lecture_transcript"class="btn btn1" :href="lectureData[0].lecture_transcript.data.full_url">Download Transcript</a>
+        <a v-if="lectureData[0].lecture_transcript"class="btn btn1" target="_blank" :href="lectureData[0].lecture_transcript.data.full_url">Download Transcript</a>
         <a class="btn btn2" href="../modules.html">Watch Other Modules</a>
     </div>
     <div style="margin-bottom:20px" class="grid">
@@ -73,7 +73,7 @@
             <div class="col desc module">
                 <h2>Read, Watch, and Listen</h2>
                 <ul>
-                    <li v-for="reading in lectureData[0].readings"><a :href="reading.reading_junction_id.source_link">{{reading.reading_junction_id.title}}</a>, {{reading.reading_junction_id.citation}}</li>
+                    <li v-for="reading in lectureData[0].readings"><a target="_blank" :href="reading.reading_junction_id.source_link">{{reading.reading_junction_id.title}}</a>, {{reading.reading_junction_id.citation}}</li>
                 </ul>
             </div>
 

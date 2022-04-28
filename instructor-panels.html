@@ -88,7 +88,7 @@
                                 class="material-icons">keyboard_arrow_down</i></a>
                         <a v-if="event.extended" @click="showExc(event)" class="event-button read-more" target="_blank">
                             Read Less<i class="material-icons">keyboard_arrow_up</i></a>
-                        <a :href="event.registration_link" class="event-button">Sign up now!</a>
+                        <a target="_blank" :href="event.registration_link" class="event-button">Sign up now!</a>
                     </div>
                 </div>
 
@@ -111,7 +111,7 @@
                     </div>
                     <div class="recording-panelists">
                         <span v-for="(panelist,index) in event.panelists"><a
-                            :href="'instructors.html#'+panelist.people_id.slug">{{panelist.people_id.name}}</a><span
+                            target="_blank" :href="'instructors.html#'+panelist.people_id.slug">{{panelist.people_id.name}}</a><span
                             v-if="index != event.panelists.length-1">,&nbsp</span></span>
                     </div>
                     <div class="recording-date">
@@ -122,9 +122,9 @@
                         <div  v-html="event.short_desc"></div>
                     </div> -->
                     <div class="recording-button">
-                    <a :href="event.video_link" class="event-button" target="_blank">
+                    <a target="_blank" :href="event.video_link" class="event-button" target="_blank">
                         Watch the video</a>
-                    <a :href="event.blog_link" class="event-button">Read the blog</a>
+                    <a target="_blank" :href="event.blog_link" class="event-button">Read the blog</a>
                     </div>
                 </div>
             </div>
@@ -140,7 +140,7 @@
             <div class="logo-section">
                 <div class="logo-row">
                     <div v-for="supporter in supporterData" class="logo-col">
-                        <a v-if="supporter.url" :href="supporter.url"><img
+                        <a v-if="supporter.url" target="_blank" :href="supporter.url"><img
                                 v-bind:src="supporter.logo.data.thumbnails[3].url"></a>
                     </div>
 

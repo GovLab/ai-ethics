@@ -24,6 +24,8 @@
     <meta property="twitter:image" content="https://aiethicscourse.org/img/thumbnail.png" />
     <title>AI Ethics: Global Perspectives</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    
     <script src="https://unpkg.com/@directus/sdk-js@5.3.4/dist/directus-sdk.umd.min.js"></script>
     <script src="https://kit.fontawesome.com/f713a12e61.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -80,7 +82,7 @@
                 <p>{{alert.short_description}}</p>
             </div>
             <div class="main-button">
-                <a v-if="alert.link" target="_blank" :href="alert.link">{{alert.button_text}}</a>
+                <a v-if="alert.link" target="_blank" target="_blank" :href="alert.link">{{alert.button_text}}</a>
                 <a id="close-button" onclick="close_alert()">Close</a>
             </div>
         </div>
@@ -118,7 +120,7 @@
                             </div>
 
                             <a v-if="!faculty.propose_lecture_tile" id="inst-link"
-                                :href="'instructors.html#'+faculty.slug"><span
+                                target="_blank" :href="'instructors.html#'+faculty.slug"><span
                                     id="expert-name">{{faculty.name}}</span><br>{{faculty.title}},
                                 {{faculty.organization}}</a>
                             <a v-if="faculty.propose_lecture_tile" id="inst-link" href="suggest.html"><span
@@ -128,7 +130,7 @@
                                 <template v-for="mod_faculty in module.faculty">
                                     <p v-if="mod_faculty.faculty_junction_id.id==faculty.id"><span
                                             id="mod-heading">MODULE:&nbsp</span><a v-if="module.lecture_live=='1'"
-                                            :href="'lectures/'+module.slug">{{module.title}}</a><span
+                                            target="_blank" :href="'lectures/'+module.slug">{{module.title}}</a><span
                                             v-if="module.lecture_live=='0'">{{module.title}}</span></p>
                                 </template>
                             </div>
@@ -152,7 +154,7 @@
                     <div v-for="supporter in supporterData" class="logo-col">
                         <div class="image">
                             <div class="square">
-                                <a v-if="supporter.url" :href="supporter.url"><img
+                                <a v-if="supporter.url" target="_blank" :href="supporter.url"><img
                                         v-bind:src="supporter.logo.data.thumbnails[3].url"></a>
                             </div>
                         </div>
