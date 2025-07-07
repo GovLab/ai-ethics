@@ -56,7 +56,7 @@
                 v-if="instructor.propose_lecture_tile == '0'">
                 <div class="image">
                     <div class="square">
-                        <img v-bind:src="instructor.headshot.data.thumbnails[3].url">
+                        <img v-bind:src="'/img/'+instructor.headshot.filename_disk">
                     </div>
                 </div>
                 <div class="bio-desc">

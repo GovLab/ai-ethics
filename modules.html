@@ -65,7 +65,7 @@
             <ul>
                 <li v-for="(faculty_item,index) in module.faculty">
                     
-                    <span id="headshot" v-if="faculty_item.faculty_junction_id.headshot"><img v-bind:src="faculty_item.faculty_junction_id.headshot.data.full_url"></span>
+                    <span id="headshot" v-if="faculty_item.faculty_junction_id.headshot"><img v-bind:src="'/img/'+faculty_item.faculty_junction_id.headshot.filename_disk"></span>
 
                     <!-- <span id="expert-name">{{faculty_item.faculty_junction_id.name}},</span>&nbsp{{faculty_item.faculty_junction_id.title}},
                     {{faculty_item.faculty_junction_id.organization}}</li> -->
