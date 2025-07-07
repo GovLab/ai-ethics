@@ -61,7 +61,7 @@
                     v-if="(event.date < currentDate) && (slugData == event.series)">
 
                     <div class="recording-img">
-                        <img v-if="event.thumbnail" class="project-img" :src="event.thumbnail.data.full_url">
+                        <img v-if="event.thumbnail" class="project-img" :src="'/img/'+event.thumbnail.filename_disk">
                     </div>
                     <div class="recording-body">
                         <div class="recording-title">
@@ -98,7 +98,7 @@
                 <a target="_blank" :href="'https://aiethicscourse.org/webinars/' + event.slug" class="webinar-item"
                     v-for="event in webinarData">
                     <div class="webinar-img">
-                        <img v-if="event.thumbnail" class="project-img" :src="event.thumbnail.data.full_url">
+                        <img v-if="event.thumbnail" class="project-img" :src="'/img/'+event.thumbnail.filename_disk">
                     </div>
                     <div class="webinar-body">
                         <div class="webinar-org">
