@@ -1,0 +1,263 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "status": "published",
+      "intro_text": "<p>Data-intensive and AI-based technologies can solve the world's biggest challenges, but they also pose risks to individuals and groups. As we deploy new technologies, we must consider the ethical ramifications of their use to identify and rectify harms.</p>",
+      "image": {
+        "id": 64,
+        "storage": "local",
+        "private_hash": "cg9398ugjnk0w8kk",
+        "filename_disk": "3812ffb2-5821-4780-9c10-ec535983e0c4.jpg",
+        "filename_download": "possessed-photography-jIBMSMs4_kA-unsplash.jpg",
+        "title": "Possessed Photography Jibmsms4 Ka Unsplash",
+        "type": "image/jpeg",
+        "uploaded_by": 1,
+        "uploaded_on": "2021-01-15T15:44:37+00:00",
+        "charset": "binary",
+        "filesize": 1130013,
+        "width": 4468,
+        "height": 3216,
+        "duration": 0,
+        "embed": null,
+        "folder": null,
+        "description": "",
+        "location": "",
+        "tags": [],
+        "checksum": "ecadf2289610d71c7a2e69520b58463c",
+        "metadata": null,
+        "data": {
+          "full_url": "https://directus.thegovlab.com/uploads/ai-ethics/originals/3812ffb2-5821-4780-9c10-ec535983e0c4.jpg",
+          "url": "/uploads/ai-ethics/originals/3812ffb2-5821-4780-9c10-ec535983e0c4.jpg",
+          "thumbnails": [
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/cg9398ugjnk0w8kk?key=directus-small-crop",
+              "relative_url": "/ai-ethics/assets/cg9398ugjnk0w8kk?key=directus-small-crop",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/cg9398ugjnk0w8kk?key=directus-small-contain",
+              "relative_url": "/ai-ethics/assets/cg9398ugjnk0w8kk?key=directus-small-contain",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/cg9398ugjnk0w8kk?key=directus-medium-crop",
+              "relative_url": "/ai-ethics/assets/cg9398ugjnk0w8kk?key=directus-medium-crop",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/cg9398ugjnk0w8kk?key=directus-medium-contain",
+              "relative_url": "/ai-ethics/assets/cg9398ugjnk0w8kk?key=directus-medium-contain",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/cg9398ugjnk0w8kk?key=directus-large-crop",
+              "relative_url": "/ai-ethics/assets/cg9398ugjnk0w8kk?key=directus-large-crop",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/cg9398ugjnk0w8kk?key=directus-large-contain",
+              "relative_url": "/ai-ethics/assets/cg9398ugjnk0w8kk?key=directus-large-contain",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/cg9398ugjnk0w8kk?key=thumbnail",
+              "relative_url": "/ai-ethics/assets/cg9398ugjnk0w8kk?key=thumbnail",
+              "dimension": "200x200",
+              "width": 200,
+              "height": 200
+            }
+          ],
+          "embed": null
+        }
+      }
+    },
+    {
+      "id": 2,
+      "status": "published",
+      "intro_text": "<p>The responsible design and use of AI and data are difficult, but there is an urgent need for it in our current ecosystem. When organizations adopt new technologies without regard to the wider social, economic, cultural, and political contexts, they can endanger privacy and security and exacerbate inequities in ways that are difficult to reverse.</p>",
+      "image": {
+        "id": 65,
+        "storage": "local",
+        "private_hash": "4qypq9bk13eo8ckk",
+        "filename_disk": "f3354081-5f21-4ea7-a586-0047b40115d9.jpg",
+        "filename_download": "engin-akyurt-KtYvqysesC4-unsplash.jpg",
+        "title": "Engin Akyurt Ktyvqysesc4 Unsplash",
+        "type": "image/jpeg",
+        "uploaded_by": 1,
+        "uploaded_on": "2021-01-15T15:44:47+00:00",
+        "charset": "binary",
+        "filesize": 1461799,
+        "width": 6720,
+        "height": 4480,
+        "duration": 0,
+        "embed": null,
+        "folder": null,
+        "description": "",
+        "location": "",
+        "tags": [],
+        "checksum": "a1f27bb7ab58924a3bc333bbfefda242",
+        "metadata": null,
+        "data": {
+          "full_url": "https://directus.thegovlab.com/uploads/ai-ethics/originals/f3354081-5f21-4ea7-a586-0047b40115d9.jpg",
+          "url": "/uploads/ai-ethics/originals/f3354081-5f21-4ea7-a586-0047b40115d9.jpg",
+          "thumbnails": [
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/4qypq9bk13eo8ckk?key=directus-small-crop",
+              "relative_url": "/ai-ethics/assets/4qypq9bk13eo8ckk?key=directus-small-crop",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/4qypq9bk13eo8ckk?key=directus-small-contain",
+              "relative_url": "/ai-ethics/assets/4qypq9bk13eo8ckk?key=directus-small-contain",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/4qypq9bk13eo8ckk?key=directus-medium-crop",
+              "relative_url": "/ai-ethics/assets/4qypq9bk13eo8ckk?key=directus-medium-crop",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/4qypq9bk13eo8ckk?key=directus-medium-contain",
+              "relative_url": "/ai-ethics/assets/4qypq9bk13eo8ckk?key=directus-medium-contain",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/4qypq9bk13eo8ckk?key=directus-large-crop",
+              "relative_url": "/ai-ethics/assets/4qypq9bk13eo8ckk?key=directus-large-crop",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/4qypq9bk13eo8ckk?key=directus-large-contain",
+              "relative_url": "/ai-ethics/assets/4qypq9bk13eo8ckk?key=directus-large-contain",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/4qypq9bk13eo8ckk?key=thumbnail",
+              "relative_url": "/ai-ethics/assets/4qypq9bk13eo8ckk?key=thumbnail",
+              "dimension": "200x200",
+              "width": 200,
+              "height": 200
+            }
+          ],
+          "embed": null
+        }
+      }
+    },
+    {
+      "id": 4,
+      "status": "published",
+      "intro_text": "<p>This course is designed to raise awareness of the societal impacts of technology, and to give individuals and institutions the tools to pursue the responsible and ethical use of AI and data. Intended for current and future data scientists, policymakers, and business leaders, we launch new lectures on the first Monday of the month on topics related to data and AI. Each module consists of a video lecture accompanied by additional resources such as videos, readings, and podcasts.</p>",
+      "image": {
+        "id": 67,
+        "storage": "local",
+        "private_hash": "b8sv38hm3u0oc4w8",
+        "filename_disk": "0451d87b-9cf6-4efa-8b46-32594e6a749a.jpg",
+        "filename_download": "nick-morrison-FHnnjk1Yj7Y-unsplash.jpg",
+        "title": "Nick Morrison Fhnnjk1yj7y Unsplash",
+        "type": "image/jpeg",
+        "uploaded_by": 1,
+        "uploaded_on": "2021-01-15T15:45:09+00:00",
+        "charset": "binary",
+        "filesize": 1067874,
+        "width": 4608,
+        "height": 3456,
+        "duration": 0,
+        "embed": null,
+        "folder": null,
+        "description": "",
+        "location": "",
+        "tags": [],
+        "checksum": "d5f2779e5a84bf92e5d939ed7cc9b20e",
+        "metadata": null,
+        "data": {
+          "full_url": "https://directus.thegovlab.com/uploads/ai-ethics/originals/0451d87b-9cf6-4efa-8b46-32594e6a749a.jpg",
+          "url": "/uploads/ai-ethics/originals/0451d87b-9cf6-4efa-8b46-32594e6a749a.jpg",
+          "thumbnails": [
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/b8sv38hm3u0oc4w8?key=directus-small-crop",
+              "relative_url": "/ai-ethics/assets/b8sv38hm3u0oc4w8?key=directus-small-crop",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/b8sv38hm3u0oc4w8?key=directus-small-contain",
+              "relative_url": "/ai-ethics/assets/b8sv38hm3u0oc4w8?key=directus-small-contain",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/b8sv38hm3u0oc4w8?key=directus-medium-crop",
+              "relative_url": "/ai-ethics/assets/b8sv38hm3u0oc4w8?key=directus-medium-crop",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/b8sv38hm3u0oc4w8?key=directus-medium-contain",
+              "relative_url": "/ai-ethics/assets/b8sv38hm3u0oc4w8?key=directus-medium-contain",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/b8sv38hm3u0oc4w8?key=directus-large-crop",
+              "relative_url": "/ai-ethics/assets/b8sv38hm3u0oc4w8?key=directus-large-crop",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/b8sv38hm3u0oc4w8?key=directus-large-contain",
+              "relative_url": "/ai-ethics/assets/b8sv38hm3u0oc4w8?key=directus-large-contain",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/b8sv38hm3u0oc4w8?key=thumbnail",
+              "relative_url": "/ai-ethics/assets/b8sv38hm3u0oc4w8?key=thumbnail",
+              "dimension": "200x200",
+              "width": 200,
+              "height": 200
+            }
+          ],
+          "embed": null
+        }
+      }
+    },
+    {
+      "id": 5,
+      "status": "published",
+      "intro_text": "<p>Join us as we seek to create a more nuanced understanding of the role that AI and data can&mdash;and should&mdash;play in society.</p>",
+      "image": null
+    }
+  ],
+  "public": true
+}

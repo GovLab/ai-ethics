@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Simple Test</title>
+</head>
+<body>
+    <h1>Simple Data Test</h1>
+    <div id="result">Loading...</div>
+
+    <script>
+        async function testFetch() {
+            try {
+                console.log('Testing fetch...');
+                const response = await fetch('data/lecture.json');
+                console.log('Response status:', response.status);
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                const data = await response.json();
+                console.log('Data received:', data);
+                console.log('Data.data length:', data.data ? data.data.length : 'no data.data');
+                
+                const lectures = data.data || data;
+                const targetLecture = lectures.find(lecture => lecture.slug === 'ai-in-government');
+                
+                document.getElementById('result').innerHTML = `
+                    <p>Total lectures: ${lectures.length}</p>
+                    <p>Target lecture found: ${targetLecture ? 'YES' : 'NO'}</p>
+                    ${targetLecture ? `<h2>${targetLecture.title}</h2><p>${targetLecture.description}</p>` : '<p>Lecture not found</p>'}
+                `;
+                
+            } catch (error) {
+                console.error('Error:', error);
+                document.getElementById('result').innerHTML = `<p>Error: ${error.message}</p>`;
+            }
+        }
+        
+        testFetch();
+    </script>
+</body>
+</html> 

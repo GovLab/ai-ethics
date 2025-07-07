@@ -1,0 +1,607 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "status": "published",
+      "name": "The GovLab",
+      "logo": {
+        "id": 48,
+        "storage": "local",
+        "private_hash": "2w455t9jbmskgswo",
+        "filename_disk": "09fe1f68-c997-4b81-8323-2b14ab6b71c0.png",
+        "filename_download": "Artboard 1.png",
+        "title": "Artboard 1",
+        "type": "image/png",
+        "uploaded_by": 1,
+        "uploaded_on": "2021-01-08T20:51:33+00:00",
+        "charset": "binary",
+        "filesize": 14126,
+        "width": 1251,
+        "height": 430,
+        "duration": 0,
+        "embed": null,
+        "folder": null,
+        "description": "",
+        "location": "",
+        "tags": [],
+        "checksum": "ef611df7587f99652496b0f653720067",
+        "metadata": null,
+        "data": {
+          "full_url": "https://directus.thegovlab.com/uploads/ai-ethics/originals/09fe1f68-c997-4b81-8323-2b14ab6b71c0.png",
+          "url": "/uploads/ai-ethics/originals/09fe1f68-c997-4b81-8323-2b14ab6b71c0.png",
+          "thumbnails": [
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/2w455t9jbmskgswo?key=directus-small-crop",
+              "relative_url": "/ai-ethics/assets/2w455t9jbmskgswo?key=directus-small-crop",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/2w455t9jbmskgswo?key=directus-small-contain",
+              "relative_url": "/ai-ethics/assets/2w455t9jbmskgswo?key=directus-small-contain",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/2w455t9jbmskgswo?key=directus-medium-crop",
+              "relative_url": "/ai-ethics/assets/2w455t9jbmskgswo?key=directus-medium-crop",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/2w455t9jbmskgswo?key=directus-medium-contain",
+              "relative_url": "/ai-ethics/assets/2w455t9jbmskgswo?key=directus-medium-contain",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/2w455t9jbmskgswo?key=directus-large-crop",
+              "relative_url": "/ai-ethics/assets/2w455t9jbmskgswo?key=directus-large-crop",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/2w455t9jbmskgswo?key=directus-large-contain",
+              "relative_url": "/ai-ethics/assets/2w455t9jbmskgswo?key=directus-large-contain",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/2w455t9jbmskgswo?key=thumbnail",
+              "relative_url": "/ai-ethics/assets/2w455t9jbmskgswo?key=thumbnail",
+              "dimension": "200x200",
+              "width": 200,
+              "height": 200
+            }
+          ],
+          "embed": null
+        }
+      },
+      "description": "<p><span style=\"font-weight: 400;\">The Governance Lab at New York University&rsquo;s Tandon School of Engineering, &ldquo;GovLab&rdquo;, is an action research center whose mission is to strengthen the ability of institutions &ndash; including but not limited to governments &ndash; and people to work more openly, collaboratively, effectively and legitimately to make better decisions and solve public problems. The GovLab has examined a range of issues on the use and application of AI technologies, from identifying citizens&rsquo; needs by </span><a href=\"https://blog.thegovlab.org/post/new-report-identifying-citizens-needs-by-combining-artificial-intelligence-ai-and-collective-intelligence-ci\"><span style=\"font-weight: 400;\">combining artificial intelligence (AI) and collective intelligence (CI)</span></a><span style=\"font-weight: 400;\"> to our latest project on </span><a href=\"https://ailocalism.org/\"><span style=\"font-weight: 400;\">AI Localism</span></a><span style=\"font-weight: 400;\">, which refers to the actions taken by local decision-makers to address the use of AI within a city or community.</span></p>",
+      "url": "https://www.thegovlab.org/"
+    },
+    {
+      "id": 2,
+      "status": "published",
+      "name": "GAIEC",
+      "logo": {
+        "id": 30,
+        "storage": "local",
+        "private_hash": "he5zhekg8g8484ww",
+        "filename_disk": "a292a628-4ab8-4235-8df8-5dfd4c85f951.jpg",
+        "filename_download": "GAIECLogolightblue-1-e1586873144605.jpg",
+        "title": "Gaieclogolightblue 1 E1586873144605",
+        "type": "image/jpeg",
+        "uploaded_by": 2,
+        "uploaded_on": "2021-01-06T16:45:15+00:00",
+        "charset": "binary",
+        "filesize": 53354,
+        "width": 214,
+        "height": 227,
+        "duration": 0,
+        "embed": null,
+        "folder": null,
+        "description": "",
+        "location": "",
+        "tags": [],
+        "checksum": "fbe1cebec16629d88c0d0c024db8734d",
+        "metadata": null,
+        "data": {
+          "full_url": "https://directus.thegovlab.com/uploads/ai-ethics/originals/a292a628-4ab8-4235-8df8-5dfd4c85f951.jpg",
+          "url": "/uploads/ai-ethics/originals/a292a628-4ab8-4235-8df8-5dfd4c85f951.jpg",
+          "thumbnails": [
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/he5zhekg8g8484ww?key=directus-small-crop",
+              "relative_url": "/ai-ethics/assets/he5zhekg8g8484ww?key=directus-small-crop",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/he5zhekg8g8484ww?key=directus-small-contain",
+              "relative_url": "/ai-ethics/assets/he5zhekg8g8484ww?key=directus-small-contain",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/he5zhekg8g8484ww?key=directus-medium-crop",
+              "relative_url": "/ai-ethics/assets/he5zhekg8g8484ww?key=directus-medium-crop",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/he5zhekg8g8484ww?key=directus-medium-contain",
+              "relative_url": "/ai-ethics/assets/he5zhekg8g8484ww?key=directus-medium-contain",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/he5zhekg8g8484ww?key=directus-large-crop",
+              "relative_url": "/ai-ethics/assets/he5zhekg8g8484ww?key=directus-large-crop",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/he5zhekg8g8484ww?key=directus-large-contain",
+              "relative_url": "/ai-ethics/assets/he5zhekg8g8484ww?key=directus-large-contain",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/he5zhekg8g8484ww?key=thumbnail",
+              "relative_url": "/ai-ethics/assets/he5zhekg8g8484ww?key=thumbnail",
+              "dimension": "200x200",
+              "width": 200,
+              "height": 200
+            }
+          ],
+          "embed": null
+        }
+      },
+      "description": "<p><span style=\"font-weight: 400;\">The Global AI Ethics Consortium joins forces with academic institutions, research centers and distinguished members of academia worldwide in order to foster trust in data and technology, maximize the potential of AI while limiting its harms, help all the involved parties navigate current uncertainty, and create ethical frameworks. GAIEC aims to:</span></p>\n<p>&nbsp;</p>\n<ol>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Support immediate needs for expertise related to the COVID-19 crisis and the emerging ethical questions related to the use of AI in managing the pandemic.</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Create a repository that includes avenues of communication for sharing and disseminating current research, new research opportunities, and past research findings.</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Coordinate internal funding and research initiatives to allow for maximum opportunities to pursue vital research related to health crises and the ethical use of AI.</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Discuss research findings and opportunities for new areas of collaboration.</span></li>\n</ol>",
+      "url": "https://ieai.mcts.tum.de/global-ai-ethics-consortium/"
+    },
+    {
+      "id": 5,
+      "status": "published",
+      "name": "Center for Responsible AI",
+      "logo": {
+        "id": 33,
+        "storage": "local",
+        "private_hash": "m50t82r7y74kskw8",
+        "filename_disk": "4a2970c3-c6f9-4e8f-8a13-b1ab925af078.png",
+        "filename_download": "rai_logo_white.png",
+        "title": "Rai Logo White",
+        "type": "image/png",
+        "uploaded_by": 2,
+        "uploaded_on": "2021-01-06T16:46:01+00:00",
+        "charset": "binary",
+        "filesize": 21398,
+        "width": 765,
+        "height": 310,
+        "duration": 0,
+        "embed": null,
+        "folder": null,
+        "description": "",
+        "location": "",
+        "tags": [],
+        "checksum": "ad800e847352a3dbdc0e05a8e44bef92",
+        "metadata": null,
+        "data": {
+          "full_url": "https://directus.thegovlab.com/uploads/ai-ethics/originals/4a2970c3-c6f9-4e8f-8a13-b1ab925af078.png",
+          "url": "/uploads/ai-ethics/originals/4a2970c3-c6f9-4e8f-8a13-b1ab925af078.png",
+          "thumbnails": [
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/m50t82r7y74kskw8?key=directus-small-crop",
+              "relative_url": "/ai-ethics/assets/m50t82r7y74kskw8?key=directus-small-crop",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/m50t82r7y74kskw8?key=directus-small-contain",
+              "relative_url": "/ai-ethics/assets/m50t82r7y74kskw8?key=directus-small-contain",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/m50t82r7y74kskw8?key=directus-medium-crop",
+              "relative_url": "/ai-ethics/assets/m50t82r7y74kskw8?key=directus-medium-crop",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/m50t82r7y74kskw8?key=directus-medium-contain",
+              "relative_url": "/ai-ethics/assets/m50t82r7y74kskw8?key=directus-medium-contain",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/m50t82r7y74kskw8?key=directus-large-crop",
+              "relative_url": "/ai-ethics/assets/m50t82r7y74kskw8?key=directus-large-crop",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/m50t82r7y74kskw8?key=directus-large-contain",
+              "relative_url": "/ai-ethics/assets/m50t82r7y74kskw8?key=directus-large-contain",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/m50t82r7y74kskw8?key=thumbnail",
+              "relative_url": "/ai-ethics/assets/m50t82r7y74kskw8?key=thumbnail",
+              "dimension": "200x200",
+              "width": 200,
+              "height": 200
+            }
+          ],
+          "embed": null
+        }
+      },
+      "description": "<p><span style=\"font-weight: 400;\">The NYU Center for Responsible AI (</span><a href=\"http://airesponsibly.com/\"><span style=\"font-weight: 400;\">R/AI</span></a><span style=\"font-weight: 400;\">), established in Fall 2019 and directed by Dr. Julia Stoyanovich and Steven Kuyan, </span><span style=\"font-weight: 400;\">is a comprehensive laboratory that is building a future in which responsible AI will be the only kind accepted by society. &nbsp; </span><span style=\"font-weight: 400;\">R/AI builds on the interdisciplinary research expertise that NYU has developed across the fields of AI, data science, engineering, social science, and law to create the world&rsquo;s most comprehensive and sophisticated laboratory for understanding and accelerating responsible AI practices.&nbsp; R/AI operates a set of synergistic activities that include applied research, startup acceleration, and a range of education and public engagement efforts.&nbsp; The</span><em><span style=\"font-weight: 400;\"> Applied Research Lab </span></em><span style=\"font-weight: 400;\">conducts cutting-edge interdisciplinary research to develop, implement, and disseminate best-in-class open source tools and frameworks for operationalizing responsibility at all stages of the AI lifecycle.&nbsp; The </span><em><span style=\"font-weight: 400;\">AI for Good</span></em><span style=\"font-weight: 400;\"> startup incubator applies AI to societal problems that are otherwise overlooked in pursuit of broad capital market opportunities.&nbsp; The </span><em><span style=\"font-weight: 400;\">Talent and Education Program</span></em><span style=\"font-weight: 400;\"> produces educational materials for data science practitioners, public sector decision makers, and members of the public.&nbsp;&nbsp;</span></p>\n<p><span style=\"font-weight: 400;\">&nbsp;</span></p>",
+      "url": " http://airesponsibly.com/,"
+    },
+    {
+      "id": 6,
+      "status": "published",
+      "name": "TUM IAEI",
+      "logo": {
+        "id": 49,
+        "storage": "local",
+        "private_hash": "r8jtcu25tfk44cgk",
+        "filename_disk": "c9598680-1ca5-433e-8721-6101d84b7343.jpg",
+        "filename_download": "s200_ieai.tum.jpg",
+        "title": "S200 Ieai.tum",
+        "type": "image/jpeg",
+        "uploaded_by": 2,
+        "uploaded_on": "2021-01-12T18:20:54+00:00",
+        "charset": "binary",
+        "filesize": 11847,
+        "width": 200,
+        "height": 200,
+        "duration": 0,
+        "embed": null,
+        "folder": null,
+        "description": "",
+        "location": "",
+        "tags": [],
+        "checksum": "be2d12a4c63c54a297321fdab893b997",
+        "metadata": null,
+        "data": {
+          "full_url": "https://directus.thegovlab.com/uploads/ai-ethics/originals/c9598680-1ca5-433e-8721-6101d84b7343.jpg",
+          "url": "/uploads/ai-ethics/originals/c9598680-1ca5-433e-8721-6101d84b7343.jpg",
+          "thumbnails": [
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/r8jtcu25tfk44cgk?key=directus-small-crop",
+              "relative_url": "/ai-ethics/assets/r8jtcu25tfk44cgk?key=directus-small-crop",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/r8jtcu25tfk44cgk?key=directus-small-contain",
+              "relative_url": "/ai-ethics/assets/r8jtcu25tfk44cgk?key=directus-small-contain",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/r8jtcu25tfk44cgk?key=directus-medium-crop",
+              "relative_url": "/ai-ethics/assets/r8jtcu25tfk44cgk?key=directus-medium-crop",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/r8jtcu25tfk44cgk?key=directus-medium-contain",
+              "relative_url": "/ai-ethics/assets/r8jtcu25tfk44cgk?key=directus-medium-contain",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/r8jtcu25tfk44cgk?key=directus-large-crop",
+              "relative_url": "/ai-ethics/assets/r8jtcu25tfk44cgk?key=directus-large-crop",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/r8jtcu25tfk44cgk?key=directus-large-contain",
+              "relative_url": "/ai-ethics/assets/r8jtcu25tfk44cgk?key=directus-large-contain",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/r8jtcu25tfk44cgk?key=thumbnail",
+              "relative_url": "/ai-ethics/assets/r8jtcu25tfk44cgk?key=thumbnail",
+              "dimension": "200x200",
+              "width": 200,
+              "height": 200
+            }
+          ],
+          "embed": null
+        }
+      },
+      "description": "<div class=\"fusion-text fusion-text-2\" style=\"transform: translate3d(0,0,0);\">\n<p><a href=\"https://www.tum.de/\">TUM</a>&nbsp;has long been a driving force in researching the mutual interactions of science, technology and society. Founded in 2019, the Institute for Ethics in Artificial Intelligence (IEAI) follows TUM&rsquo;s strategy for &ldquo;Human-Centered Engineering&rdquo; and the university&rsquo;s bold creation of the&nbsp;<a href=\"https://www.mcts.tum.de/en/\">Munich Center for Technology in Society</a>&nbsp;(MCTS) in 2012, whose mission is to better understand and reflexively shape the multiple interactions between science, technology and society.</p>\n<p><a href=\"https://ieai.mcts.tum.de/research/\">The IEAI conducts inter-, multi-, and transdisciplinary research</a>&nbsp;that promotes active collaboration between the technical, engineering and social sciences, while also actively courting interaction with a wide group of international stakeholders from academia, industry and civil society. This exhaustive approach enables the IEAI to truly and comprehensively address a growing group of ethical challenges arising at the interface of technology and human values. It also aids in the development of thoroughly operational ethical frameworks in the field of AI.</p>\n</div>",
+      "url": "https://ieai.mcts.tum.de/"
+    },
+    {
+      "id": 7,
+      "status": "published",
+      "name": "NYU Tandon School of Engineering",
+      "logo": {
+        "id": 63,
+        "storage": "local",
+        "private_hash": "7guga4cfy9wkcgks",
+        "filename_disk": "efb3785d-5f25-415b-aaaa-871170d681ba.png",
+        "filename_download": "tandon_long_color.png",
+        "title": "Tandon Long Color",
+        "type": "image/png",
+        "uploaded_by": 1,
+        "uploaded_on": "2021-01-13T02:42:40+00:00",
+        "charset": "binary",
+        "filesize": 25361,
+        "width": 579,
+        "height": 145,
+        "duration": 0,
+        "embed": null,
+        "folder": null,
+        "description": "",
+        "location": "",
+        "tags": [],
+        "checksum": "1348848ceb216696e12faa8615d123ab",
+        "metadata": null,
+        "data": {
+          "full_url": "https://directus.thegovlab.com/uploads/ai-ethics/originals/efb3785d-5f25-415b-aaaa-871170d681ba.png",
+          "url": "/uploads/ai-ethics/originals/efb3785d-5f25-415b-aaaa-871170d681ba.png",
+          "thumbnails": [
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/7guga4cfy9wkcgks?key=directus-small-crop",
+              "relative_url": "/ai-ethics/assets/7guga4cfy9wkcgks?key=directus-small-crop",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/7guga4cfy9wkcgks?key=directus-small-contain",
+              "relative_url": "/ai-ethics/assets/7guga4cfy9wkcgks?key=directus-small-contain",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/7guga4cfy9wkcgks?key=directus-medium-crop",
+              "relative_url": "/ai-ethics/assets/7guga4cfy9wkcgks?key=directus-medium-crop",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/7guga4cfy9wkcgks?key=directus-medium-contain",
+              "relative_url": "/ai-ethics/assets/7guga4cfy9wkcgks?key=directus-medium-contain",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/7guga4cfy9wkcgks?key=directus-large-crop",
+              "relative_url": "/ai-ethics/assets/7guga4cfy9wkcgks?key=directus-large-crop",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/7guga4cfy9wkcgks?key=directus-large-contain",
+              "relative_url": "/ai-ethics/assets/7guga4cfy9wkcgks?key=directus-large-contain",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/7guga4cfy9wkcgks?key=thumbnail",
+              "relative_url": "/ai-ethics/assets/7guga4cfy9wkcgks?key=thumbnail",
+              "dimension": "200x200",
+              "width": 200,
+              "height": 200
+            }
+          ],
+          "embed": null
+        }
+      },
+      "description": "<p><a>The NYU Tandon School of Engineering dates to 1854, the founding date for both the New York University School of Civil Engineering and Architecture and the Brooklyn Collegiate and Polytechnic Institute. Our school was, quite literally, the birthplace of the American Dream; it was our alum James Truslow Adams who coined that phrase in 1931. </a></p>\n<p><a>Just as it was then, Tandon is a place where ambitious students from all walks of life get the solid education they need to launch their careers. A January 2014 merger created a comprehensive school of education and research in engineering and applied sciences as part of a global university, with close connections to engineering programs at NYU Abu Dhabi and NYU Shanghai. We believe diversity is integral to excellence, and are creating a vibrant, inclusive, and equitable environment for all of our students, faculty and staff</a></p>\n<p><a>The NYU Tandon Made mindset &mdash; tackling the challenges and opportunities ahead of us with equal parts determination, innovation, street smarts, and a healthy measure of heart &mdash; suffuses everything here, from our courses to our student competitions to our labs and prototyping spaces.</a></p>",
+      "url": "https://engineering.nyu.edu/"
+    },
+    {
+      "id": 8,
+      "status": "published",
+      "name": "Living Library",
+      "logo": {
+        "id": 95,
+        "storage": "local",
+        "private_hash": "qif9k30ry2owscco",
+        "filename_disk": "6f8c6725-0a75-4d98-aacf-c2857e99de92.png",
+        "filename_download": "og-image.png",
+        "title": "Og Image",
+        "type": "image/png",
+        "uploaded_by": 2,
+        "uploaded_on": "2021-01-29T19:25:53+00:00",
+        "charset": "binary",
+        "filesize": 52158,
+        "width": 500,
+        "height": 500,
+        "duration": 0,
+        "embed": null,
+        "folder": null,
+        "description": "",
+        "location": "",
+        "tags": [],
+        "checksum": "c7733daf684a6cadf94f5e1847543e7b",
+        "metadata": null,
+        "data": {
+          "full_url": "https://directus.thegovlab.com/uploads/ai-ethics/originals/6f8c6725-0a75-4d98-aacf-c2857e99de92.png",
+          "url": "/uploads/ai-ethics/originals/6f8c6725-0a75-4d98-aacf-c2857e99de92.png",
+          "thumbnails": [
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/qif9k30ry2owscco?key=directus-small-crop",
+              "relative_url": "/ai-ethics/assets/qif9k30ry2owscco?key=directus-small-crop",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/qif9k30ry2owscco?key=directus-small-contain",
+              "relative_url": "/ai-ethics/assets/qif9k30ry2owscco?key=directus-small-contain",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/qif9k30ry2owscco?key=directus-medium-crop",
+              "relative_url": "/ai-ethics/assets/qif9k30ry2owscco?key=directus-medium-crop",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/qif9k30ry2owscco?key=directus-medium-contain",
+              "relative_url": "/ai-ethics/assets/qif9k30ry2owscco?key=directus-medium-contain",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/qif9k30ry2owscco?key=directus-large-crop",
+              "relative_url": "/ai-ethics/assets/qif9k30ry2owscco?key=directus-large-crop",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/qif9k30ry2owscco?key=directus-large-contain",
+              "relative_url": "/ai-ethics/assets/qif9k30ry2owscco?key=directus-large-contain",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/qif9k30ry2owscco?key=thumbnail",
+              "relative_url": "/ai-ethics/assets/qif9k30ry2owscco?key=thumbnail",
+              "dimension": "200x200",
+              "width": 200,
+              "height": 200
+            }
+          ],
+          "embed": null
+        }
+      },
+      "description": "<p>The Living Library seeks to provide actionable knowledge on governance innovation. Our aim is to inform and inspire policymakers, practitioners, technologists, and researchers working at the intersection of governance, innovation, and technology in a timely, digestible and comprehensive manner. We identify for our core audience the &ldquo;signal in the noise&rdquo; by curating research, best practices, points of view, new tools, and developments.</p>\n<p>The knowledge provided by The Living Library spans topic areas from artificial intelligence, open data, and blockchain, to citizen science, open innovation, and civic technology. The platform has an international purview, with insights drawn from across the globe and relevant to a diversity of sectors.</p>",
+      "url": "https://thelivinglib.org/"
+    },
+    {
+      "id": 9,
+      "status": "published",
+      "name": "UNESCO IFAP Working Groups",
+      "logo": {
+        "id": 147,
+        "storage": "local",
+        "private_hash": "1jwgnek2wv28w8c0",
+        "filename_disk": "e14e5578-7bdc-4b5f-851a-fe16131b132c.png",
+        "filename_download": "unnamed.png",
+        "title": "Unnamed",
+        "type": "image/png",
+        "uploaded_by": 2,
+        "uploaded_on": "2021-05-25T18:59:14+00:00",
+        "charset": "binary",
+        "filesize": 6615,
+        "width": 318,
+        "height": 159,
+        "duration": 0,
+        "embed": null,
+        "folder": null,
+        "description": "",
+        "location": "",
+        "tags": [],
+        "checksum": "4e84a5c39b0036193e9427b6721aaf41",
+        "metadata": null,
+        "data": {
+          "full_url": "https://directus.thegovlab.com/uploads/ai-ethics/originals/e14e5578-7bdc-4b5f-851a-fe16131b132c.png",
+          "url": "/uploads/ai-ethics/originals/e14e5578-7bdc-4b5f-851a-fe16131b132c.png",
+          "thumbnails": [
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/1jwgnek2wv28w8c0?key=directus-small-crop",
+              "relative_url": "/ai-ethics/assets/1jwgnek2wv28w8c0?key=directus-small-crop",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/1jwgnek2wv28w8c0?key=directus-small-contain",
+              "relative_url": "/ai-ethics/assets/1jwgnek2wv28w8c0?key=directus-small-contain",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/1jwgnek2wv28w8c0?key=directus-medium-crop",
+              "relative_url": "/ai-ethics/assets/1jwgnek2wv28w8c0?key=directus-medium-crop",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/1jwgnek2wv28w8c0?key=directus-medium-contain",
+              "relative_url": "/ai-ethics/assets/1jwgnek2wv28w8c0?key=directus-medium-contain",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/1jwgnek2wv28w8c0?key=directus-large-crop",
+              "relative_url": "/ai-ethics/assets/1jwgnek2wv28w8c0?key=directus-large-crop",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/1jwgnek2wv28w8c0?key=directus-large-contain",
+              "relative_url": "/ai-ethics/assets/1jwgnek2wv28w8c0?key=directus-large-contain",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "https://directus.thegovlab.com/ai-ethics/assets/1jwgnek2wv28w8c0?key=thumbnail",
+              "relative_url": "/ai-ethics/assets/1jwgnek2wv28w8c0?key=thumbnail",
+              "dimension": "200x200",
+              "width": 200,
+              "height": 200
+            }
+          ],
+          "embed": null
+        }
+      },
+      "description": "<p>Member States nominate national experts to participate in the activities of the IFAP Working Groups. The Working Groups conduct their activities primarily through on-line exchanges under the guidance of a Working Group Chair, who is an elected Member of the IFAP Bureau.</p>\n<p>Each Chairperson is responsible for:</p>\n<ul>\n<li>initiating and organising activities by the Working Group;</li>\n<li>developing a workplan of their Working Group based on the strategic plan and supporting its realization;</li>\n<li>reporting to the Bureau and Council on the activities of their Working Group;</li>\n<li>maintaining regular contact with members of their Working Group to ensure their ongoing engagement and participation in the implementation of the workplan;</li>\n<li>supporting collaboration and exchange with other Working Group Chairs.</li>\n</ul>\n<p>Members of the Working Group provide their professional expertise in one or more of the IFAP strategic priorities, to support the achievement of the Programme&rsquo;s overarching goals.</p>\n<p>The multi-stakeholder composition of Working Groups with representatives drawn from government, the private sector, networks of information professionals, researchers and other relevant parties, provides the interdisciplinary perspectives and expertise to address the challenge of information for all.</p>\n<p>Given the international scope of their membership, Working Groups are expected to organize their activities primarily through online collaboration. They are however encouraged to take advantage of seminars, conferences, training events and other opportunities for face-to-face collaboration both amongst themselves and with other members of the IFAP network.</p>",
+      "url": "https://en.unesco.org/programme/ifap"
+    }
+  ],
+  "public": true
+}

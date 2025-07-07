@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Test Lecture Page</title>
+</head>
+<body>
+    <div id="home-page">
+        <h1>Test Lecture Page</h1>
+        <div id="debug-info">
+            <p>Loading...</p>
+        </div>
+        <div v-if="lectureData.length > 0">
+            <h2>{{lectureData[0].title}}</h2>
+            <p>{{lectureData[0].description}}</p>
+        </div>
+        <div v-else>
+            <p>No lecture data found</p>
+        </div>
+    </div>
+
+    <script src='https://unpkg.com/vue@2.0.3/dist/vue.js'></script>
+    <script>
+        console.log('Vue loaded:', typeof Vue);
+        
+        new Vue({
+            el: '#home-page',
+            data() {
+                return {
+                    lectureData: [],
+                    dataPath: 'data/'
+                }
+            },
+            async created() {
+                console.log('Vue app created');
+                await this.fetchLecture();
+            },
+            methods: {
+                async fetchLocalData(filename) {
+                    try {
+                        console.log('Fetching:', this.dataPath + filename);
+                        const response = await fetch(this.dataPath + filename);
+                        if (!response.ok) {
+                            throw new Error(`HTTP error! status: ${response.status}`);
+                        }
+                        const data = await response.json();
+                        console.log('Raw data received');
+                        return data.data || data;
+                    } catch (error) {
+                        console.error(`Error loading ${filename}:`, error.message);
+                        return [];
+                    }
+                },
+                async fetchLecture() {
+                    console.log('Fetching lecture data...');
+                    const allLectures = await this.fetchLocalData('lecture.json');
+                    console.log('All lectures count:', allLectures.length);
+                    
+                    // Filter for ai-in-government
+                    this.lectureData = allLectures.filter(lecture => 
+                        lecture.slug === 'ai-in-government'
+                    );
+                    
+                    console.log('Filtered lecture data:', this.lectureData);
+                    console.log('Lecture data length:', this.lectureData.length);
+                    
+                    // Update debug info
+                    document.getElementById('debug-info').innerHTML = 
+                        `<p>Found ${allLectures.length} total lectures</p>
+                         <p>Filtered to ${this.lectureData.length} matching lectures</p>
+                         <p>Slug: ai-in-government</p>`;
+                }
+            }
+        });
+    </script>
+</body>
+</html> 
