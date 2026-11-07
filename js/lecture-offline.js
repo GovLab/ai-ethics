@@ -28,23 +28,32 @@ document.addEventListener('DOMContentLoaded', function() {
 
   Vue.use(VueMeta);
 
+  // Pages written by scripts/prerender.mjs (lectures/<slug>.html) already contain the lecture:
+  // the data is in #lecture-data and the Vue template in #lecture-tpl, so Vue renders the same
+  // markup straight away instead of loading lecture.json. lectures/index.html still loads it.
+  var prerenderedData = document.getElementById('lecture-data');
+  var prerenderedLecture = prerenderedData ? JSON.parse(prerenderedData.textContent) : null;
+
   new Vue({
     el: '#home-page',
+    template: document.getElementById('lecture-tpl') ? '#lecture-tpl' : undefined,
 
     data() {
       return {
-        lectureData: [],
+        lectureData: prerenderedLecture || [],
         dataPath: '/data/',
-        loading: true,
+        loading: !prerenderedLecture,
         error: null
       }
     },
 
     async mounted() {
       console.log('Vue app mounted');
-      this.lectureslug = window.location.href.split('/');
-      this.lectureslug = this.lectureslug[this.lectureslug.length - 1];
+      // Last path segment, without a trailing slash, ".html", query string or hash.
+      var path = window.location.pathname.replace(/\/+$/, '');
+      this.lectureslug = decodeURIComponent(path.substring(path.lastIndexOf('/') + 1)).replace(/\.html$/, '');
       console.log('Lecture slug:', this.lectureslug);
+      if (prerenderedLecture) return;
       await this.fetchLecture();
     },
 
