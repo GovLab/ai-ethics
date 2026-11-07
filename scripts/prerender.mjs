@@ -641,7 +641,8 @@ function lectureMarkdown(l, canonical, summary) {
 
 function renderLecture(shell, l) {
   const data = [lectureData(l)];
-  const canonical = `${SITE}/lectures/${l.slug}`;
+  // Netlify answers a path with capitals with a 301 to the lower-case path, so that is the address.
+  const canonical = `${SITE}/lectures/${l.slug.toLowerCase()}`;
   const markdown = `${canonical}.md`;
   const description = truncate(plainText(l.short_description) || plainText(l.description) || `${l.title}, a lecture of ${SITE_NAME}.`);
   const image = l.icon && l.icon.filename_disk && fs.existsSync(path.join(ROOT, 'img', l.icon.filename_disk)) ? `${SITE}/img/${l.icon.filename_disk}` : SITE_IMAGE;
@@ -732,7 +733,7 @@ function webinarMarkdown(w, data, canonical, summary, today) {
 }
 
 function renderWebinar(shell, w, data, today) {
-  const canonical = `${SITE}/webinars/${w.slug}`;
+  const canonical = `${SITE}/webinars/${w.slug.toLowerCase()}`;
   const markdown = `${canonical}.md`;
   const description = truncate(plainText(w.description) || `${w.title}, a webinar series of ${SITE_NAME}.`);
   const image = w.thumbnail && w.thumbnail.filename_disk && fs.existsSync(path.join(ROOT, 'img', w.thumbnail.filename_disk)) ? `${SITE}/img/${w.thumbnail.filename_disk}` : SITE_IMAGE;
