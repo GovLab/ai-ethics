@@ -1,0 +1,28 @@
+{
+  "name": "ai-ethics-offline",
+  "version": "1.0.0",
+  "description": "AI Ethics: Global Perspectives - Offline Version",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "download-data": "node download-api-data.js",
+    "download-images": "node download-images.js",
+    "setup-offline": "npm run download-data && npm run download-images"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.7",
+    "axios": "^1.4.0"
+  },
+  "devDependencies": {
+    "fs-extra": "^11.1.1"
+  },
+  "keywords": [
+    "ai-ethics",
+    "offline",
+    "static-site"
+  ],
+  "author": "The GovLab",
+  "license": "MIT"
+} 

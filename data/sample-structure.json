@@ -1,0 +1,121 @@
+{
+  "intro_elements": {
+    "data": [
+      {
+        "id": 1,
+        "intro_text": "<p>Welcome to AI Ethics: Global Perspectives...</p>",
+        "image": {
+          "data": {
+            "full_url": "img/hero-image.jpg",
+            "thumbnails": {
+              "3": {
+                "url": "img/hero-image-thumb.jpg"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "webinars": {
+    "data": [
+      {
+        "id": 1,
+        "title": "AI Ethics in Healthcare",
+        "slug": "ai-ethics-healthcare",
+        "description": "Exploring ethical considerations in AI-powered healthcare...",
+        "organizer": "The GovLab",
+        "thumbnail": {
+          "data": {
+            "full_url": "img/webinar-healthcare.jpg",
+            "thumbnails": {
+              "3": {
+                "url": "img/webinar-healthcare-thumb.jpg"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "lecture": {
+    "data": [
+      {
+        "id": 1,
+        "title": "Introduction to AI Ethics",
+        "slug": "introduction-ai-ethics",
+        "description": "An overview of ethical considerations in artificial intelligence...",
+        "video_url_identifier": "abc123xyz",
+        "lecture_live": "1",
+        "faculty": [
+          {
+            "faculty_junction_id": {
+              "id": 1,
+              "name": "Dr. Jane Smith",
+              "slug": "jane-smith",
+              "headshot": {
+                "data": {
+                  "full_url": "img/jane-smith.jpg",
+                  "thumbnails": {
+                    "3": {
+                      "url": "img/jane-smith-thumb.jpg"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "readings": [
+          {
+            "reading_junction_id": {
+              "title": "Ethics in AI: A Primer",
+              "citation": "Smith, J. (2023). Journal of AI Ethics",
+              "source_link": "https://example.com/paper"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "people": {
+    "data": [
+      {
+        "id": 1,
+        "name": "Dr. Jane Smith",
+        "slug": "jane-smith",
+        "title": "Professor",
+        "organization": "University of Ethics",
+        "headshot": {
+          "data": {
+            "full_url": "img/jane-smith.jpg",
+            "thumbnails": {
+              "3": {
+                "url": "img/jane-smith-thumb.jpg"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "supporters": {
+    "data": [
+      {
+        "id": 1,
+        "name": "Tech Foundation",
+        "url": "https://techfoundation.org",
+        "logo": {
+          "data": {
+            "full_url": "img/tech-foundation-logo.png",
+            "thumbnails": {
+              "3": {
+                "url": "img/tech-foundation-logo-thumb.png"
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}

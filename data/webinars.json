@@ -1,0 +1,445 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "status": "published",
+      "thumbnail": {
+        "id": 149,
+        "storage": "local",
+        "private_hash": "8q8a8cej5y4gg4k0",
+        "filename_disk": "65093971-9386-4578-9f94-bf9f85a6ff18.jpeg",
+        "filename_download": "aiethics-panels.001.jpeg",
+        "title": "Aiethics Panels.001",
+        "type": "image/jpeg",
+        "uploaded_by": 1,
+        "uploaded_on": "2021-06-16T15:22:30+00:00",
+        "charset": "binary",
+        "filesize": 399032,
+        "width": 1920,
+        "height": 1080,
+        "duration": 0,
+        "embed": null,
+        "folder": null,
+        "description": "",
+        "location": "",
+        "tags": [],
+        "checksum": "ea20b64dd947ff042df1b11af32639c4",
+        "metadata": null,
+        "data": {
+          "full_url": "img/65093971-9386-4578-9f94-bf9f85a6ff18.jpeg",
+          "url": "/uploads/ai-ethics/originals/65093971-9386-4578-9f94-bf9f85a6ff18.jpeg",
+          "thumbnails": [
+            {
+              "url": "img/8q8a8cej5y4gg4k0",
+              "relative_url": "/ai-ethics/assets/8q8a8cej5y4gg4k0?key=directus-small-crop",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "img/8q8a8cej5y4gg4k0",
+              "relative_url": "/ai-ethics/assets/8q8a8cej5y4gg4k0?key=directus-small-contain",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "img/8q8a8cej5y4gg4k0",
+              "relative_url": "/ai-ethics/assets/8q8a8cej5y4gg4k0?key=directus-medium-crop",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "img/8q8a8cej5y4gg4k0",
+              "relative_url": "/ai-ethics/assets/8q8a8cej5y4gg4k0?key=directus-medium-contain",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "img/8q8a8cej5y4gg4k0",
+              "relative_url": "/ai-ethics/assets/8q8a8cej5y4gg4k0?key=directus-large-crop",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "img/8q8a8cej5y4gg4k0",
+              "relative_url": "/ai-ethics/assets/8q8a8cej5y4gg4k0?key=directus-large-contain",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "img/8q8a8cej5y4gg4k0",
+              "relative_url": "/ai-ethics/assets/8q8a8cej5y4gg4k0?key=thumbnail",
+              "dimension": "200x200",
+              "width": 200,
+              "height": 200
+            }
+          ],
+          "embed": null
+        }
+      },
+      "title": "Instructor Panels",
+      "order": 1,
+      "organizer": "The GovLab",
+      "slug": "instructor-panels",
+      "description": "To allow for a more in-depth discussion of the course contents and Q&A from a public audience, we will host a series of monthly panel discussions with course instructors, moderated by course leads Julia Stoyanovich, Christoph Lutge, and Stefaan Verhulst. Panels will also be recorded and uploaded on this page.  Register for the course to get notified about upcoming events!"
+    },
+    {
+      "id": 3,
+      "status": "published",
+      "thumbnail": {
+        "id": 165,
+        "storage": "local",
+        "private_hash": "fzxpng0p1g08008o",
+        "filename_disk": "41998c74-3a25-455d-ac7f-1d1512525830.png",
+        "filename_download": "Oxford UJ Berlin.png",
+        "title": "Oxford Uj Berlin",
+        "type": "image/png",
+        "uploaded_by": 2,
+        "uploaded_on": "2021-07-14T18:44:01+00:00",
+        "charset": "binary",
+        "filesize": 258143,
+        "width": 885,
+        "height": 477,
+        "duration": 0,
+        "embed": null,
+        "folder": null,
+        "description": "",
+        "location": "",
+        "tags": [],
+        "checksum": "544eea1e7deffe0a289a33fde2a61bc3",
+        "metadata": null,
+        "data": {
+          "full_url": "img/41998c74-3a25-455d-ac7f-1d1512525830.png",
+          "url": "/uploads/ai-ethics/originals/41998c74-3a25-455d-ac7f-1d1512525830.png",
+          "thumbnails": [
+            {
+              "url": "img/fzxpng0p1g08008o",
+              "relative_url": "/ai-ethics/assets/fzxpng0p1g08008o?key=directus-small-crop",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "img/fzxpng0p1g08008o",
+              "relative_url": "/ai-ethics/assets/fzxpng0p1g08008o?key=directus-small-contain",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "img/fzxpng0p1g08008o",
+              "relative_url": "/ai-ethics/assets/fzxpng0p1g08008o?key=directus-medium-crop",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "img/fzxpng0p1g08008o",
+              "relative_url": "/ai-ethics/assets/fzxpng0p1g08008o?key=directus-medium-contain",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "img/fzxpng0p1g08008o",
+              "relative_url": "/ai-ethics/assets/fzxpng0p1g08008o?key=directus-large-crop",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "img/fzxpng0p1g08008o",
+              "relative_url": "/ai-ethics/assets/fzxpng0p1g08008o?key=directus-large-contain",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "img/fzxpng0p1g08008o",
+              "relative_url": "/ai-ethics/assets/fzxpng0p1g08008o?key=thumbnail",
+              "dimension": "200x200",
+              "width": 200,
+              "height": 200
+            }
+          ],
+          "embed": null
+        }
+      },
+      "title": "AI, Hate Speech and Online Content Moderation Seminar Series",
+      "order": 2,
+      "organizer": "Oxford-UJ Global Media Policy Seminar Series",
+      "slug": "ai-hate-speech-and-online-content-moderation-seminar-series",
+      "description": "COVID-19 has led to a rapid acceleration of automated content moderation and a reduction of human moderation. This has been problematic as algorithms have struggled to correctly interpret content leading to hate speech remaining online while other messages have been mistakenly identified as being ‘dangerous’. Furthermore, most algorithms have been developed and trained on content from the global north and have struggled to be sensitive to context, and even more so in countries in the global south where social media companies have been less engaged. These trends may have a particular impact in regions that are already affected by a multitude of destabilizing factors like climate change, political instability and economic uncertainty. This seminar series attempts to offer insight into some of the challenges faced by hate speech and automated content regulation on the continent.\n\nThis seminar is organized by Freie Universität Berlin, the Weizenbaum Institute, the School of Communications at the University of Johannesburg, and the Centre for Socio-Legal Studies’ Programme in Comparative Media Law and Policy (PCMLP) at the University of Oxford. We are grateful for the support of the OxBer Research Fund and the ERC.\n"
+    },
+    {
+      "id": 5,
+      "status": "published",
+      "thumbnail": {
+        "id": 222,
+        "storage": "local",
+        "private_hash": "9i6qkzfbwjs4o84w",
+        "filename_disk": "8bb3e3b7-f9b7-46e4-9b73-8ad5f0c30e59.png",
+        "filename_download": "IEAI Speaker Series.png",
+        "title": "Ieai Speaker Series",
+        "type": "image/png",
+        "uploaded_by": 3,
+        "uploaded_on": "2022-04-07T15:59:48+00:00",
+        "charset": "binary",
+        "filesize": 1317616,
+        "width": 1280,
+        "height": 720,
+        "duration": 0,
+        "embed": null,
+        "folder": null,
+        "description": "",
+        "location": "",
+        "tags": [],
+        "checksum": "018c91081bb05426bee0872b5352842c",
+        "metadata": null,
+        "data": {
+          "full_url": "img/8bb3e3b7-f9b7-46e4-9b73-8ad5f0c30e59.png",
+          "url": "/uploads/ai-ethics/originals/8bb3e3b7-f9b7-46e4-9b73-8ad5f0c30e59.png",
+          "thumbnails": [
+            {
+              "url": "img/9i6qkzfbwjs4o84w",
+              "relative_url": "/ai-ethics/assets/9i6qkzfbwjs4o84w?key=directus-small-crop",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "img/9i6qkzfbwjs4o84w",
+              "relative_url": "/ai-ethics/assets/9i6qkzfbwjs4o84w?key=directus-small-contain",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "img/9i6qkzfbwjs4o84w",
+              "relative_url": "/ai-ethics/assets/9i6qkzfbwjs4o84w?key=directus-medium-crop",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "img/9i6qkzfbwjs4o84w",
+              "relative_url": "/ai-ethics/assets/9i6qkzfbwjs4o84w?key=directus-medium-contain",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "img/9i6qkzfbwjs4o84w",
+              "relative_url": "/ai-ethics/assets/9i6qkzfbwjs4o84w?key=directus-large-crop",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "img/9i6qkzfbwjs4o84w",
+              "relative_url": "/ai-ethics/assets/9i6qkzfbwjs4o84w?key=directus-large-contain",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "img/9i6qkzfbwjs4o84w",
+              "relative_url": "/ai-ethics/assets/9i6qkzfbwjs4o84w?key=thumbnail",
+              "dimension": "200x200",
+              "width": 200,
+              "height": 200
+            }
+          ],
+          "embed": null
+        }
+      },
+      "title": "TUM IEAI Speaker Series",
+      "order": 3,
+      "organizer": "The TUM Institute for Ethics in Artificial Intelligence",
+      "slug": "tum-ieai-speaker-series",
+      "description": "With its Speaker Series, the TUM Institute for Ethics in Artificial Intelligence invites experts from all over the world to talk about ethics and governance of AI. These events serve as an important platform for sharing new research and exchanging knowledge.\n\n"
+    },
+    {
+      "id": 6,
+      "status": "published",
+      "thumbnail": {
+        "id": 223,
+        "storage": "local",
+        "private_hash": "qzin7yt1mbkwksg8",
+        "filename_disk": "7ed039e3-07d4-451d-92e1-43c474909ba1.png",
+        "filename_download": "IEAI Q&A Series.png",
+        "title": "Ieai Q&a Series",
+        "type": "image/png",
+        "uploaded_by": 3,
+        "uploaded_on": "2022-04-07T16:05:34+00:00",
+        "charset": "binary",
+        "filesize": 734933,
+        "width": 1280,
+        "height": 720,
+        "duration": 0,
+        "embed": null,
+        "folder": null,
+        "description": "",
+        "location": "",
+        "tags": [],
+        "checksum": "e32bbaaf9dde45d690f53a15ea6c35a2",
+        "metadata": null,
+        "data": {
+          "full_url": "img/7ed039e3-07d4-451d-92e1-43c474909ba1.png",
+          "url": "/uploads/ai-ethics/originals/7ed039e3-07d4-451d-92e1-43c474909ba1.png",
+          "thumbnails": [
+            {
+              "url": "img/qzin7yt1mbkwksg8",
+              "relative_url": "/ai-ethics/assets/qzin7yt1mbkwksg8?key=directus-small-crop",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "img/qzin7yt1mbkwksg8",
+              "relative_url": "/ai-ethics/assets/qzin7yt1mbkwksg8?key=directus-small-contain",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "img/qzin7yt1mbkwksg8",
+              "relative_url": "/ai-ethics/assets/qzin7yt1mbkwksg8?key=directus-medium-crop",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "img/qzin7yt1mbkwksg8",
+              "relative_url": "/ai-ethics/assets/qzin7yt1mbkwksg8?key=directus-medium-contain",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "img/qzin7yt1mbkwksg8",
+              "relative_url": "/ai-ethics/assets/qzin7yt1mbkwksg8?key=directus-large-crop",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "img/qzin7yt1mbkwksg8",
+              "relative_url": "/ai-ethics/assets/qzin7yt1mbkwksg8?key=directus-large-contain",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "img/qzin7yt1mbkwksg8",
+              "relative_url": "/ai-ethics/assets/qzin7yt1mbkwksg8?key=thumbnail",
+              "dimension": "200x200",
+              "width": 200,
+              "height": 200
+            }
+          ],
+          "embed": null
+        }
+      },
+      "title": "TUM IEAI Reflections on AI series",
+      "order": 4,
+      "organizer": "The TUM Institute for Ethics in Artificial Intelligence",
+      "slug": "tum-ieai-reflections-on-ai-series",
+      "description": "In 2020, the IEAI established the Q&A Series: Reflections on AI. This series aims to engage with our invited speakers and IEAI affiliates in a more intimate and accessible way. During these monthly installments, the IEAI team has the pleasure of speaking to the experts and posing a set of important AI ethics-related questions."
+    },
+    {
+      "id": 7,
+      "status": "published",
+      "thumbnail": {
+        "id": 301,
+        "storage": "local",
+        "private_hash": "im6i01q3ctcgokwg",
+        "filename_disk": "d92a2d1b-e948-433b-b63c-dcf1633e3ef8.png",
+        "filename_download": "AIE x IEWG.png",
+        "title": "Aie X Iewg",
+        "type": "image/png",
+        "uploaded_by": 1,
+        "uploaded_on": "2022-09-22T14:05:01+00:00",
+        "charset": "binary",
+        "filesize": 525405,
+        "width": 1280,
+        "height": 720,
+        "duration": 0,
+        "embed": null,
+        "folder": null,
+        "description": "",
+        "location": "",
+        "tags": [],
+        "checksum": "3d5daf25f3f5b09c1df84fcf9d1b88d0",
+        "metadata": null,
+        "data": {
+          "full_url": "img/d92a2d1b-e948-433b-b63c-dcf1633e3ef8.png",
+          "url": "/uploads/ai-ethics/originals/d92a2d1b-e948-433b-b63c-dcf1633e3ef8.png",
+          "thumbnails": [
+            {
+              "url": "img/im6i01q3ctcgokwg",
+              "relative_url": "/ai-ethics/assets/im6i01q3ctcgokwg?key=directus-small-crop",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "img/im6i01q3ctcgokwg",
+              "relative_url": "/ai-ethics/assets/im6i01q3ctcgokwg?key=directus-small-contain",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "img/im6i01q3ctcgokwg",
+              "relative_url": "/ai-ethics/assets/im6i01q3ctcgokwg?key=directus-medium-crop",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "img/im6i01q3ctcgokwg",
+              "relative_url": "/ai-ethics/assets/im6i01q3ctcgokwg?key=directus-medium-contain",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "img/im6i01q3ctcgokwg",
+              "relative_url": "/ai-ethics/assets/im6i01q3ctcgokwg?key=directus-large-crop",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "img/im6i01q3ctcgokwg",
+              "relative_url": "/ai-ethics/assets/im6i01q3ctcgokwg?key=directus-large-contain",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "img/im6i01q3ctcgokwg",
+              "relative_url": "/ai-ethics/assets/im6i01q3ctcgokwg?key=thumbnail",
+              "dimension": "200x200",
+              "width": 200,
+              "height": 200
+            }
+          ],
+          "embed": null
+        }
+      },
+      "title": "Implementing the UNESCO Recommendation on the Ethics of AI",
+      "order": 5,
+      "organizer": "UNESCO IFAP's Information Ethics Working Group (IEWG)",
+      "slug": "implementing-the-unesco-recommendation-on-the-ethics-of-ai",
+      "description": "Inspired by the Universal Declaration of Human Rights, UNESCO IFAP’s Information Ethics Working Group (IEWG) studies the ethical, legal and social aspects of the applications of ICT. The group brings together a diverse set of experts from different sectors around the world to tackle some of the most pressing issues in this field. \n\nAs artificial intelligence (AI) technologies have gained traction in virtually every aspect of our lives, ethics of AI too have become increasingly more important. In 2020, UNESCO brought together an ad hoc group of experts to craft a Recommendation on the ethics of AI, which has since been adopted. The IEWG has now turned its expertise to this global standard setting document, focusing on how it can be implemented in the ecosystem. In collaboration with international research centers and other UNESCO programs, including the Global AI Ethics Consortium, the Global AI Ethics Network for Social Good, the Global Network on AI and International Society and the Information Ethics Network for Africa, the IEWG has developed this series to help AI ethics practitioners implement the Recommendation in practice. \n\nTo learn more about the IEWG’s work, please visit: www.crids.eu/cooperations/iewg-ifap. "
+    }
+  ],
+  "public": true
+}
