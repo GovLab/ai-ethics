@@ -21,12 +21,30 @@ main();
 
 Vue.use(VueMeta);
 
+// Pages written by scripts/prerender.mjs (webinars/<slug>.html) already contain the data in
+// #webinar-data and the Vue template in #webinar-tpl, so Vue renders the same markup straight
+// away instead of loading the JSON files. webinars/index.html still loads them.
+var prerenderedEl = document.getElementById('webinar-data');
+var prerenderedWebinar = prerenderedEl ? JSON.parse(prerenderedEl.textContent) : null;
+
 new Vue({
-    
+
   el: '#home-page',
-    
+  template: document.getElementById('webinar-tpl') ? '#webinar-tpl' : undefined,
+
   data () {
- 
+
+    if (prerenderedWebinar) {
+      return {
+        webinarData: prerenderedWebinar.webinarData,
+        currentDate: moment().tz("America/Toronto").format('YYYY-MM-DD'),
+        indexData: prerenderedWebinar.indexData,
+        eventsData: prerenderedWebinar.eventsData,
+        slugData: prerenderedWebinar.slugData,
+        supporterData: prerenderedWebinar.supporterData,
+        dataPath: '/data/' // Path to local JSON files
+      }
+    }
     return {
       webinarData: [],
       currentDate: '',
@@ -39,8 +57,10 @@ new Vue({
   },
 
   created: function created() {
-    this.memberslug = window.location.href.split('/');
-    this.memberslug = this.memberslug[this.memberslug.length - 1];
+    // Last path segment, without a trailing slash, ".html", query string or hash.
+    var path = window.location.pathname.replace(/\/+$/, '');
+    this.memberslug = decodeURIComponent(path.substring(path.lastIndexOf('/') + 1)).replace(/\.html$/, '');
+    if (prerenderedWebinar) return;
     this.fetchWebinar();
     this.fetchEvents();
     this.fetchIndex();

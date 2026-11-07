@@ -1,0 +1,9 @@
+# Build step added for crawler-readable lecture and webinar pages: scripts/prerender.mjs copies
+# the site into dist/ and writes lectures/<slug>.html and webinars/<slug>.html (+ .md),
+# sitemap.xml, llms.txt, llms-full.txt and _headers from data/*.json. No npm dependencies.
+[build]
+  command = "node scripts/prerender.mjs"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "24"
